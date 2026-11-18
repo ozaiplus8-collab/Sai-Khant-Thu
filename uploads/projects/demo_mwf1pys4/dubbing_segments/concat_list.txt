@@ -1,0 +1,2 @@
+file '/app/applet/uploads/projects/demo_mwf1pys4/dubbing_segments/dub_001_myMMNilarNeural_100.mp3'
+file '/app/applet/uploads/projects/demo_mwf1pys4/dubbing_segments/dub_002_myMMNilarNeural_100.mp3'

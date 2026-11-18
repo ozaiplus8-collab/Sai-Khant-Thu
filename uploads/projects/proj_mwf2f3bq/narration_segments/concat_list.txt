@@ -1,0 +1,5 @@
+file '/app/applet/uploads/projects/proj_mwf2f3bq/narration_segments/seg_001_150.mp3'
+file '/app/applet/uploads/projects/proj_mwf2f3bq/narration_segments/seg_002_150.mp3'
+file '/app/applet/uploads/projects/proj_mwf2f3bq/narration_segments/seg_003_150.mp3'
+file '/app/applet/uploads/projects/proj_mwf2f3bq/narration_segments/seg_004_150.mp3'
+file '/app/applet/uploads/projects/proj_mwf2f3bq/narration_segments/seg_005_150.mp3'

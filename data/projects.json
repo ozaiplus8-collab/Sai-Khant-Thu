@@ -1,0 +1,3696 @@
+[
+  {
+    "id": "proj_mwf34zlm_3ygn",
+    "title": "1000303910",
+    "originalFilename": "1000303910.mp4",
+    "fileSize": 23858127,
+    "duration": 119.999975,
+    "videoWidth": 720,
+    "videoHeight": 1280,
+    "createdAt": "2026-11-13T14:41:49.399Z",
+    "updatedAt": "2026-11-13T14:44:05.320Z",
+    "status": "completed",
+    "currentStep": 13,
+    "progress": 100,
+    "currentStepTitle": "ပြီးစီးပါပြီ! အပြီးသတ် MP4, SRT နှင့် ASS ဖိုင်များကို ဒေါင်းလုဒ်လုပ်နိုင်ပါပြီ",
+    "mode": "recap",
+    "settings": {
+      "mode": "recap",
+      "recapLength": "long",
+      "narrationStyle": "casual",
+      "ttsProvider": "edge",
+      "ttsVoice": "my-MM-ThihaNeural",
+      "speakingRate": "1.50x",
+      "originalAudioVolume": 0,
+      "narrationVolume": 1,
+      "bgmVolume": 0.2,
+      "burnSubtitles": true,
+      "fontSize": 18,
+      "characterVoices": [],
+      "subtitleStyle": {
+        "posX": 46,
+        "posY": 77,
+        "fontSizeScale": 1,
+        "bgMaskEnabled": false,
+        "bgMaskOpacity": 0.65,
+        "bgBlur": 0
+      }
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-13T14:41:49.399Z",
+        "step": 1,
+        "message": "ဗီဒီယိုဖိုင် \"1000303910.mp4\" (22.8 MB) တင်သွင်းပြီးပါပြီ [RECAP MODE]",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:41:49.413Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:41:49.563Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက်: 120s · 720x1280 · Audio stream detected",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:41:49.573Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:41:50.413Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono MP3)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:41:50.419Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:41:51.600Z",
+        "step": 4,
+        "message": "Groq Whisper ဖြင့် စကားပြော အပိုင်း 53 ခု မှတ်သားပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:41:54.897Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 11 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:42:10.249Z",
+        "step": 6,
+        "message": "Gemini Vision OCR မအောင်မြင်ပါ ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-4-hydrogen, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 17h17m49.781436311s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://aistudio.google.com/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"description\":\"Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\",\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-4-hydrogen\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"62269s\"}]}}) — Groq Vision OCR ဖြင့် ဆက်လက်ဖတ်ရှုနေပါသည်...",
+        "type": "warn"
+      },
+      {
+        "timestamp": "2026-11-13T14:42:10.969Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 0 ခု ဖတ်ရှုတွေ့ရှိပါသည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:42:10.978Z",
+        "step": 8,
+        "message": "AI (gemini) ဖြင့် ဇာတ်လမ်းခွဲခြမ်းစိတ်ဖြာနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:42:54.939Z",
+        "step": 9,
+        "message": "မြန်မာ ဇာတ်ကြောင်းပြောစာသား အပိုင်း 8 ခု ရေးသားပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:42:57.593Z",
+        "step": 9,
+        "message": "အသုံးပြုသူမှ ဇာတ်ညွှန်း သို့မဟုတ် ဇာတ်ကောင်အသံကို တည်းဖြတ်ပြင်ဆင်ခဲ့သည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:42:57.739Z",
+        "step": 9,
+        "message": "စာသားများကို အတည်ပြုပြီး ဗီဒီယို ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:44:05.325Z",
+        "step": 13,
+        "message": "အပြီးသတ် MP4 ဗီဒီယို ဖန်တီးမှု အောင်မြင်ပါပြီ (RECAP MODE)",
+        "type": "success"
+      }
+    ],
+    "error": null,
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 2.2,
+          "text": "他走他的"
+        },
+        {
+          "id": 2,
+          "start": 2.2,
+          "end": 4.42,
+          "text": "跟你们租金有什么关系"
+        },
+        {
+          "id": 3,
+          "start": 4.42,
+          "end": 6.04,
+          "text": "怎么没关系"
+        },
+        {
+          "id": 4,
+          "start": 6.04,
+          "end": 8.42,
+          "text": "以前那么多货车司机"
+        },
+        {
+          "id": 5,
+          "start": 8.42,
+          "end": 9.54,
+          "text": "采购商装卸工"
+        },
+        {
+          "id": 6,
+          "start": 9.54,
+          "end": 10.86,
+          "text": "他们全在这消费"
+        },
+        {
+          "id": 7,
+          "start": 10.86,
+          "end": 14.94,
+          "text": "现在都去瑞川了"
+        },
+        {
+          "id": 8,
+          "start": 14.94,
+          "end": 17.14,
+          "text": "这边一天"
+        },
+        {
+          "id": 9,
+          "start": 17.14,
+          "end": 18.22,
+          "text": "连以前三中都不到"
+        },
+        {
+          "id": 10,
+          "start": 18.22,
+          "end": 20.22,
+          "text": "生意不好是你们自己的问题"
+        },
+        {
+          "id": 11,
+          "start": 20.22,
+          "end": 21.66,
+          "text": "怎么成我们自己的问题"
+        },
+        {
+          "id": 12,
+          "start": 21.66,
+          "end": 23.18,
+          "text": "以前五点就忙"
+        },
+        {
+          "id": 13,
+          "start": 23.18,
+          "end": 24.68,
+          "text": "现在七点坐不满三桌"
+        },
+        {
+          "id": 14,
+          "start": 24.68,
+          "end": 26.48,
+          "text": "你让我们拿什么交原来的租金"
+        },
+        {
+          "id": 15,
+          "start": 26.48,
+          "end": 28.3,
+          "text": "那你想怎么样"
+        },
+        {
+          "id": 16,
+          "start": 28.3,
+          "end": 29.32,
+          "text": "先降一点"
+        },
+        {
+          "id": 17,
+          "start": 29.32,
+          "end": 30.62,
+          "text": "等重新招到大户"
+        },
+        {
+          "id": 18,
+          "start": 30.62,
+          "end": 32.08,
+          "text": "客流起来再调回去"
+        },
+        {
+          "id": 19,
+          "start": 32.08,
+          "end": 33.62,
+          "text": "对"
+        },
+        {
+          "id": 20,
+          "start": 33.62,
+          "end": 35.26,
+          "text": "我们不是不交"
+        },
+        {
+          "id": 21,
+          "start": 35.26,
+          "end": 36.8,
+          "text": "现在真撑不住"
+        },
+        {
+          "id": 22,
+          "start": 36.8,
+          "end": 41.5,
+          "text": "什么凭什么"
+        },
+        {
+          "id": 23,
+          "start": 41.5,
+          "end": 43.24,
+          "text": "以前你们赚钱"
+        },
+        {
+          "id": 24,
+          "start": 43.24,
+          "end": 45.84,
+          "text": "怎么没主动多给我租金"
+        },
+        {
+          "id": 25,
+          "start": 45.84,
+          "end": 47.46,
+          "text": "我们一直按合同交"
+        },
+        {
+          "id": 26,
+          "start": 47.46,
+          "end": 49.56,
+          "text": "现在也按合同交"
+        },
+        {
+          "id": 27,
+          "start": 49.56,
+          "end": 52.24,
+          "text": "市场情况不一样了"
+        },
+        {
+          "id": 28,
+          "start": 52.24,
+          "end": 53.02,
+          "text": "哪里不一样"
+        },
+        {
+          "id": 29,
+          "start": 53.02,
+          "end": 53.94,
+          "text": "楼"
+        },
+        {
+          "id": 30,
+          "start": 53.94,
+          "end": 61,
+          "text": "铺子水电都在我少你们什么了?人没了!最重要的人没了!"
+        },
+        {
+          "id": 31,
+          "start": 65,
+          "end": 66,
+          "text": "谁没了?"
+        },
+        {
+          "id": 32,
+          "start": 66,
+          "end": 68,
+          "text": "你非让我说,江雨桥走了!"
+        },
+        {
+          "id": 33,
+          "start": 68,
+          "end": 72,
+          "text": "他一天多少车,多少采购商和司机,你心里没说?"
+        },
+        {
+          "id": 34,
+          "start": 72,
+          "end": 76,
+          "text": "够了!够了!"
+        },
+        {
+          "id": 35,
+          "start": 76,
+          "end": 79,
+          "text": "市场不是靠江雨群活,你们也不是靠他活。"
+        },
+        {
+          "id": 36,
+          "start": 79,
+          "end": 82,
+          "text": "生意做不好,别往别人身上推。"
+        },
+        {
+          "id": 37,
+          "start": 82,
+          "end": 85.12,
+          "text": "那你就看看没他以后还能剩多少人"
+        },
+        {
+          "id": 38,
+          "start": 85.12,
+          "end": 86.52,
+          "text": "撑不住就走"
+        },
+        {
+          "id": 39,
+          "start": 86.52,
+          "end": 90.46,
+          "text": "你说什么"
+        },
+        {
+          "id": 40,
+          "start": 90.46,
+          "end": 91.98,
+          "text": "我说撑不住就走"
+        },
+        {
+          "id": 41,
+          "start": 91.98,
+          "end": 93.08,
+          "text": "我又没拦"
+        },
+        {
+          "id": 42,
+          "start": 93.08,
+          "end": 94.5,
+          "text": "押金呢"
+        },
+        {
+          "id": 43,
+          "start": 94.5,
+          "end": 95.68,
+          "text": "合同没到期"
+        },
+        {
+          "id": 44,
+          "start": 95.68,
+          "end": 97.42,
+          "text": "自己走押金不退"
+        },
+        {
+          "id": 45,
+          "start": 97.42,
+          "end": 100.8,
+          "text": "预付租金呢"
+        },
+        {
+          "id": 46,
+          "start": 100.8,
+          "end": 102.5,
+          "text": "按合同处理"
+        },
+        {
+          "id": 47,
+          "start": 102.5,
+          "end": 105.42,
+          "text": "你这不是逼我们死扛"
+        },
+        {
+          "id": 48,
+          "start": 105.42,
+          "end": 108.92,
+          "text": "合同不是我逼你们签的"
+        },
+        {
+          "id": 49,
+          "start": 108.92,
+          "end": 110.3,
+          "text": "愿做就做"
+        },
+        {
+          "id": 50,
+          "start": 110.3,
+          "end": 112.44,
+          "text": "不愿做门在哪"
+        },
+        {
+          "id": 51,
+          "start": 112.44,
+          "end": 113.1,
+          "text": "行"
+        },
+        {
+          "id": 52,
+          "start": 113.1,
+          "end": 115.66,
+          "text": "你记住今天的话"
+        },
+        {
+          "id": 53,
+          "start": 115.66,
+          "end": 120,
+          "text": "吓唬谁"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [],
+      "frameCount": 11
+    },
+    "recapScript": {
+      "title": "အငှားခနှင့် စီးပွားရေးအကျပ်အတည်း",
+      "genre": "ဒရာမာ",
+      "narrationStyle": "casual",
+      "charactersSummary": [
+        {
+          "name": "ယွီကျိ",
+          "role": "ဈေးပိုင်ရှင်",
+          "description": "ဈေးကို စီမံခန့်ခွဲသူဖြစ်ပြီး စည်းမျဉ်းအတိုင်းသာ အလုပ်လုပ်လိုသူ၊ အငှားခလျှော့ချပေးရန် တောင်းဆိုချက်ကို ငြင်းပယ်သူ။"
+        },
+        {
+          "name": "စားသောက်ဆိုင်ပိုင်ရှင်",
+          "role": "ဆိုင်ရှင်",
+          "description": "ဈေးအတွင်းတွင် လုပ်ငန်းလုပ်ကိုင်သူ၊ ဈေးကွက်ကျဆင်းလာသဖြင့် အငှားခလျှော့ချပေးရန် ယွီကျိကို လာရောက်ညှိနှိုင်းသူ။"
+        }
+      ],
+      "scenesSummary": [
+        {
+          "timeRange": "00:00 - 00:30",
+          "description": "ဈေးပိုင်ရှင် ယွီကျိနှင့် ဆိုင်ရှင်တို့ အငှားခလျှော့ချရေးအတွက် ရုံးခန်းအတွင်း ပြင်းထန်စွာ ငြင်းခုံနေကြသည်။"
+        },
+        {
+          "timeRange": "00:31 - 01:00",
+          "description": "ဆိုင်ရှင်က ကျန်းယွီချောင်ထွက်ခွာသွားခြင်းကြောင့် လုပ်ငန်းများ ထိခိုက်နေကြောင်း ရှင်းပြသော်လည်း ယွီကျိက လက်မခံပေ။"
+        },
+        {
+          "timeRange": "01:01 - 01:20",
+          "description": "ယွီကျိက စာချုပ်ပါအတိုင်းသာ အလုပ်လုပ်မည်ဖြစ်ပြီး ဆိုင်ရှင်၏ တောင်းဆိုချက်ကို လုံးဝပယ်ချလိုက်သည်။"
+        }
+      ],
+      "synopsis": "ဈေးကွက်တစ်ခုအတွင်း စီးပွားရေးကျဆင်းလာချိန်မှာ ဆိုင်ရှင်တစ်ဦးက ဈေးပိုင်ရှင်ယွီကျိထံသို့ အငှားခလျှော့ချပေးရန် လာရောက်တောင်းဆိုသည်။ ဆိုင်ရှင်က ကျန်းယွီချောင်ဆိုသူ ထွက်ခွာသွားခြင်းကြောင့် ဝယ်လက်များနည်းပါးသွားကြောင်း၊ ယခင်ကကဲ့သို့ အငှားခပေးဆောင်ရန် မဖြစ်နိုင်တော့ကြောင်း ပြောပြသည်။ သို့သော် ယွီကျိကမူ ဈေးကွက်ကျဆင်းခြင်းမှာ ၎င်းတို့၏ စွမ်းဆောင်ရည်အားနည်းမှုသာဖြစ်ကြောင်း၊ စာချုပ်ပါအတိုင်း အငှားခပေးရမည်ဖြစ်ကြောင်း တင်းမာစွာ ပြောကြားသည်။ စကားများရာမှ အငြင်းပွားမှုကြီးထွားလာပြီး အပေးအယူမရဘဲ အဆုံးသတ်သွားသည့် အဖြစ်အပျက်ဖြစ်သည်။",
+      "narrationSegments": [
+        {
+          "id": 1,
+          "text": "မင်္ဂလာပါ ပရိသတ်တို့ရေ၊ ဒီနေ့မှာတော့ တင်းမာတဲ့ စီးပွားရေးစေ့စပ်ညှိနှိုင်းမှုတစ်ခုအကြောင်းကို တင်ဆက်ပေးသွားမှာပါ။ ဇာတ်လမ်းကတော့ ဈေးပိုင်ရှင် ယွီကျိနဲ့ ဈေးအတွင်းက ဆိုင်ရှင်တစ်ဦးကြားမှာ ဖြစ်ပွားခဲ့တဲ့ အငြင်းပွားမှုလေးပါ။"
+        },
+        {
+          "id": 2,
+          "text": "ဇာတ်လမ်းအစမှာတင် ဆိုင်ရှင်က အငှားခတွေကို လျှော့ချပေးဖို့အတွက် ယွီကျိဆီကို ရောက်လာခဲ့ပါတယ်။ ဆိုင်ရှင်ရဲ့ ပြောပြချက်အရ အရင်က ဝယ်လက်တွေ၊ ကုန်တင်ကုန်ချသမားတွေနဲ့ စည်ကားခဲ့တဲ့ ဈေးဟာ အခုတော့ လူသူနည်းပါးသွားပြီတဲ့။"
+        },
+        {
+          "id": 3,
+          "text": "အထူးသဖြင့် ကျန်းယွီချောင်ဆိုတဲ့သူ ထွက်ခွာသွားပြီးနောက်ပိုင်းမှာ ဆိုင်မှာ ဧည့်သည် လာရောက်မှုနှုန်းက သိသိသာသာ လျော့ကျသွားခဲ့တာပါ။ အရင်ကဆို ညနေခင်းဆို လူစည်ကားပေမဲ့ အခုတော့ တစ်နေ့ကို လူသုံးဦးတောင် မပြည့်တော့ဘူးလို့ သူက ညည်းတွားပါတယ်။"
+        },
+        {
+          "id": 4,
+          "text": "ဆိုင်ရှင်က စီးပွားရေးပြန်ကောင်းလာတဲ့အထိ အငှားခတွေကို ခဏလျှော့ချပေးဖို့၊ ပြီးရင်တော့ ပြန်တိုးပေးမယ်လို့ အကောင်းမြင်စိတ်နဲ့ တောင်းဆိုခဲ့ပါတယ်။ ဒါပေမဲ့ ယွီကျိကတော့ လုံးဝသဘောမတူပါဘူး။"
+        },
+        {
+          "id": 5,
+          "text": "ယွီကျိရဲ့ အမြင်မှာတော့ စီးပွားရေး မကောင်းတာက ဆိုင်ရှင်ရဲ့ ကိုယ်ပိုင်အရည်အချင်း ပြဿနာသာဖြစ်ပြီး၊ အရင်တုန်းက ဆိုင်ရှင်တွေ အမြတ်ရတုန်းကလည်း သူ့ကို ပိုပေးတာမျိုး မရှိခဲ့ဘူးလို့ ပြန်လည် ချေပပါတယ်။"
+        },
+        {
+          "id": 6,
+          "text": "ဒီစကားတွေက ဆိုင်ရှင်ကို ဒေါသထွက်စေပါတယ်။ သူတို့က စာချုပ်အတိုင်း အမြဲတမ်း ပေးဆပ်ခဲ့တာဖြစ်ပြီး၊ အခုလို အခက်အခဲဖြစ်နေချိန်မှာ မကူညီတဲ့အပေါ်မှာ အကြီးအကျယ် စိတ်ပျက်နေခဲ့တာပါ။"
+        },
+        {
+          "id": 7,
+          "text": "ယွီကျိကတော့ အေးဆေးပါပဲ။ 'စာချုပ်က စာချုပ်ပါပဲ၊ အဆင်မပြေရင် ဆိုင်ကို ပိတ်ပြီး ထွက်သွားနိုင်တယ်' ဆိုတဲ့ စကားကိုပဲ တရစပ် ပြောနေပါတယ်။ အရှုံးခံပြီး ဆက်လုပ်မလား၊ ဒါမှမဟုတ် အခုချက်ချင်း ဆိုင်ကို စွန့်ခွာမလားဆိုတဲ့ ရွေးချယ်မှုမျိုးကို သူပေးလိုက်တာပါ။"
+        },
+        {
+          "id": 8,
+          "text": "နောက်ဆုံးမှာတော့ သူတို့နှစ်ဦးကြားက အငြင်းပွားမှုက ပိုမိုတင်းမာလာပြီး ဘယ်သူမှ လမ်းမပေးတော့ဘဲ ဇာတ်လမ်းက အဆုံးသတ်သွားပါတယ်။ စီးပွားရေးလောကရဲ့ ရက်စက်မှုနဲ့ စာချုပ်ရဲ့ တင်းကျပ်မှုတွေကို ဒီဇာတ်လမ်းလေးက ကောင်းကောင်း ရိုက်ပြသွားပါတယ်။"
+        }
+      ],
+      "approved": true
+    },
+    "narration": {
+      "audioPath": "/app/applet/uploads/projects/proj_mwf34zlm_3ygn/narration.mp3",
+      "durationSeconds": 77.51066666666668,
+      "voiceUsed": "my-MM-ThihaNeural",
+      "providerUsed": "google"
+    },
+    "subtitles": {
+      "srtPath": "/app/applet/uploads/projects/proj_mwf34zlm_3ygn/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/proj_mwf34zlm_3ygn/subtitles.ass",
+      "cuesCount": 8
+    },
+    "export": {
+      "videoPath": "/app/applet/uploads/projects/proj_mwf34zlm_3ygn/final_recap.mp4",
+      "srtPath": "/app/applet/uploads/projects/proj_mwf34zlm_3ygn/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/proj_mwf34zlm_3ygn/subtitles.ass",
+      "scriptPath": "/app/applet/uploads/projects/proj_mwf34zlm_3ygn/recap_script.txt",
+      "renderedAt": "2026-11-13T14:44:05.318Z"
+    }
+  },
+  {
+    "id": "proj_mwf2oadz_ad7l",
+    "title": "E2E Dubbing Test",
+    "originalFilename": "mandarin_dialogue.mp4",
+    "fileSize": 107943,
+    "duration": 11,
+    "videoWidth": 1280,
+    "videoHeight": 720,
+    "createdAt": "2026-11-13T14:28:50.055Z",
+    "updatedAt": "2026-11-13T14:29:22.794Z",
+    "status": "completed",
+    "currentStep": 13,
+    "progress": 100,
+    "currentStepTitle": "ပြီးစီးပါပြီ! အပြီးသတ် MP4, SRT နှင့် ASS ဖိုင်များကို ဒေါင်းလုဒ်လုပ်နိုင်ပါပြီ",
+    "mode": "dubbing",
+    "settings": {
+      "mode": "dubbing",
+      "recapLength": "short",
+      "narrationStyle": "dramatic",
+      "ttsProvider": "edge",
+      "ttsVoice": "my-MM-NilarNeural",
+      "speakingRate": "1.00x",
+      "originalAudioVolume": 0.1,
+      "narrationVolume": 1,
+      "bgmVolume": 0.25,
+      "burnSubtitles": true,
+      "fontSize": 18,
+      "characterVoices": [
+        {
+          "speaker": "ဇာတ်ကောင် ၁",
+          "voiceId": "my-MM-NilarNeural"
+        },
+        {
+          "speaker": "ဇာတ်ကောင် ၂",
+          "voiceId": "my-MM-ThihaNeural"
+        }
+      ],
+      "bgmFilename": "bgm.mp3"
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-13T14:28:50.055Z",
+        "step": 1,
+        "message": "ဗီဒီယိုဖိုင် \"mandarin_dialogue.mp4\" (0.1 MB) တင်သွင်းပြီးပါပြီ [DUBBING MODE]",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:50.068Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:50.182Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက်: 11s · 1280x720 · Audio stream detected",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:50.187Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:50.343Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono MP3)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:50.348Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:50.724Z",
+        "step": 4,
+        "message": "Groq Whisper ဖြင့် စကားပြော အပိုင်း 2 ခု မှတ်သားပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:50.980Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 6 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:29:12.275Z",
+        "step": 6,
+        "message": "Gemini Vision OCR မအောင်မြင်ပါ ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-4-hydrogen, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 17h30m47.754172974s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://aistudio.google.com/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"description\":\"Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\",\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-4-hydrogen\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"63047s\"}]}}) — Groq Vision OCR ဖြင့် ဆက်လက်ဖတ်ရှုနေပါသည်...",
+        "type": "warn"
+      },
+      {
+        "timestamp": "2026-11-13T14:29:12.787Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 0 ခု ဖတ်ရှုတွေ့ရှိပါသည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:29:12.794Z",
+        "step": 8,
+        "message": "တရုတ်စကားပြောများကို ဇာတ်ကောင်အလိုက် မြန်မာစကားပြော ဘာသာပြန်ခြင်း (Dubbing) (gemini)...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:29:17.406Z",
+        "step": 9,
+        "message": "စကားပြော အပိုင်း 2 ခုကို မြန်မာဘာသာသို့ ပြန်ဆိုပြီးပါပြီ။ အတည်ပြုရန် စောင့်ဆိုင်းနေပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:29:18.726Z",
+        "step": 12,
+        "message": "နောက်ခံတေးဂီတ \"bgm.mp3\" ထည့်သွင်းပြီးပါပြီ",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:29:18.738Z",
+        "step": 9,
+        "message": "အသုံးပြုသူမှ ဇာတ်ညွှန်း သို့မဟုတ် ဇာတ်ကောင်အသံကို တည်းဖြတ်ပြင်ဆင်ခဲ့သည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:29:18.749Z",
+        "step": 9,
+        "message": "စာသားများကို အတည်ပြုပြီး ဗီဒီယို ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:29:22.797Z",
+        "step": 13,
+        "message": "အပြီးသတ် MP4 ဗီဒီယို ဖန်တီးမှု အောင်မြင်ပါပြီ (DUBBING MODE)",
+        "type": "success"
+      }
+    ],
+    "error": null,
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 4.74,
+          "text": "三年过去了,你终于回来了。这座城市一直在等你。"
+        },
+        {
+          "id": 2,
+          "start": 5.86,
+          "end": 9.16,
+          "text": "为了保护大家的安全,我们今天必须联手行动。"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [],
+      "frameCount": 6
+    },
+    "dialogueScript": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 4.74,
+          "chineseText": "三年过去了,你终于回来了。这座城市一直在等你。",
+          "burmeseText": "သုံးနှစ်ကြာပြီးတဲ့နောက်မှာတော့ မင်း နောက်ဆုံးတော့ ပြန်ရောက်လာပြီ။ ဒီမြို့က မင်းကို အမြဲစောင့်မျှော်နေခဲ့တာ။",
+          "speaker": "ဇာတ်ကောင် ၁",
+          "emotion": "စိတ်လှုပ်ရှား"
+        },
+        {
+          "id": 2,
+          "start": 5.86,
+          "end": 9.16,
+          "chineseText": "为了保护大家的安全,我们今天必须联手行动。",
+          "burmeseText": "လူတိုင်းရဲ့ လုံခြုံရေးအတွက် ဒီနေ့တော့ ငါတို့ အတူတကွ ပူးပေါင်းဆောင်ရွက်ကြရမယ်။",
+          "speaker": "ဇာတ်ကောင် ၂",
+          "emotion": "တည်ငြိမ်"
+        }
+      ],
+      "characterVoices": [
+        {
+          "speaker": "ဇာတ်ကောင် ၁",
+          "voiceId": "my-MM-NilarNeural"
+        },
+        {
+          "speaker": "ဇာတ်ကောင် ၂",
+          "voiceId": "my-MM-ThihaNeural"
+        }
+      ],
+      "approved": true
+    },
+    "narration": {
+      "audioPath": "/app/applet/uploads/projects/proj_mwf2oadz_ad7l/dubbing.mp3",
+      "durationSeconds": 11.472000000000001,
+      "voiceUsed": "my-MM-NilarNeural",
+      "providerUsed": "edge"
+    },
+    "subtitles": {
+      "srtPath": "/app/applet/uploads/projects/proj_mwf2oadz_ad7l/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/proj_mwf2oadz_ad7l/subtitles.ass",
+      "cuesCount": 2
+    },
+    "export": {
+      "videoPath": "/app/applet/uploads/projects/proj_mwf2oadz_ad7l/final_recap.mp4",
+      "srtPath": "/app/applet/uploads/projects/proj_mwf2oadz_ad7l/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/proj_mwf2oadz_ad7l/subtitles.ass",
+      "scriptPath": "/app/applet/uploads/projects/proj_mwf2oadz_ad7l/dialogue_script.txt",
+      "renderedAt": "2026-11-13T14:29:22.792Z"
+    }
+  },
+  {
+    "id": "proj_mwf2nj8f_lgkt",
+    "title": "E2E Recap Test",
+    "originalFilename": "mandarin_dialogue.mp4",
+    "fileSize": 107943,
+    "duration": 11,
+    "videoWidth": 1280,
+    "videoHeight": 720,
+    "createdAt": "2026-11-13T14:28:14.873Z",
+    "updatedAt": "2026-11-13T14:28:48.160Z",
+    "status": "completed",
+    "currentStep": 13,
+    "progress": 100,
+    "currentStepTitle": "ပြီးစီးပါပြီ! အပြီးသတ် MP4, SRT နှင့် ASS ဖိုင်များကို ဒေါင်းလုဒ်လုပ်နိုင်ပါပြီ",
+    "mode": "recap",
+    "settings": {
+      "mode": "recap",
+      "recapLength": "short",
+      "narrationStyle": "dramatic",
+      "ttsProvider": "edge",
+      "ttsVoice": "my-MM-NilarNeural",
+      "speakingRate": "1.50x",
+      "originalAudioVolume": 0.15,
+      "narrationVolume": 1,
+      "bgmVolume": 0.2,
+      "burnSubtitles": true,
+      "fontSize": 18
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-13T14:28:14.873Z",
+        "step": 1,
+        "message": "ဗီဒီယိုဖိုင် \"mandarin_dialogue.mp4\" (0.1 MB) တင်သွင်းပြီးပါပြီ [RECAP MODE]",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:14.884Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:15.005Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက်: 11s · 1280x720 · Audio stream detected",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:15.010Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:15.169Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono MP3)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:15.174Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:15.527Z",
+        "step": 4,
+        "message": "Groq Whisper ဖြင့် စကားပြော အပိုင်း 2 ခု မှတ်သားပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:15.789Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 6 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:36.171Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 0 ခု ဖတ်ရှုတွေ့ရှိပါသည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:36.179Z",
+        "step": 8,
+        "message": "AI (gemini) ဖြင့် ဇာတ်လမ်းခွဲခြမ်းစိတ်ဖြာနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:41.222Z",
+        "step": 9,
+        "message": "မြန်မာ ဇာတ်ကြောင်းပြောစာသား အပိုင်း 2 ခု ရေးသားပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:42.026Z",
+        "step": 9,
+        "message": "အသုံးပြုသူမှ ဇာတ်ညွှန်း သို့မဟုတ် ဇာတ်ကောင်အသံကို တည်းဖြတ်ပြင်ဆင်ခဲ့သည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:42.042Z",
+        "step": 9,
+        "message": "စာသားများကို အတည်ပြုပြီး ဗီဒီယို ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:48.164Z",
+        "step": 13,
+        "message": "အပြီးသတ် MP4 ဗီဒီယို ဖန်တီးမှု အောင်မြင်ပါပြီ (RECAP MODE)",
+        "type": "success"
+      }
+    ],
+    "error": null,
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 4.74,
+          "text": "三年过去了,你终于回来了。这座城市一直在等你。"
+        },
+        {
+          "id": 2,
+          "start": 5.86,
+          "end": 9.16,
+          "text": "为了保护大家的安全,我们今天必须联手行动。"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [],
+      "frameCount": 6
+    },
+    "recapScript": {
+      "title": "သုံးနှစ်ကြာမှ ပြန်လာသော သူရဲကောင်း (Edited)",
+      "genre": "အက်ရှင်၊ ဒရမ်မာ",
+      "narrationStyle": "dramatic",
+      "charactersSummary": [
+        {
+          "name": "အမည်မသိ သူရဲကောင်း",
+          "role": "အဓိကဇာတ်ဆောင်",
+          "description": "သုံးနှစ်ကြာ ပျောက်ကွယ်သွားပြီးနောက် မြို့တော်ကို ကာကွယ်ရန် ပြန်လည်ရောက်ရှိလာသူ"
+        }
+      ],
+      "scenesSummary": [
+        {
+          "timeRange": "00:00 - 00:05",
+          "description": "သူရဲကောင်းပြန်လည်ရောက်ရှိလာပြီး မြို့တော်က သူ့ကို စောင့်မျှော်နေကြောင်း ဖော်ပြခြင်း"
+        },
+        {
+          "timeRange": "00:05 - 00:11",
+          "description": "လူထုလုံခြုံရေးအတွက် အတူတကွ ပူးပေါင်းဆောင်ရွက်ရန် တိုက်တွန်းနှိုးဆော်ခြင်း"
+        }
+      ],
+      "synopsis": "သုံးနှစ်ကြာ ပျောက်ကွယ်သွားခဲ့တဲ့ သူရဲကောင်းတစ်ယောက် မြို့တော်ကို ပြန်လည်ရောက်ရှိလာတဲ့အခါ မြို့သူမြို့သားတွေက သူ့ကို စောင့်မျှော်နေခဲ့ကြပါတယ်။ လတ်တလော ဖြစ်ပေါ်နေတဲ့ အန္တရာယ်တွေကို ကျော်လွှားပြီး လူထုလုံခြုံရေးကို အာမခံချက်ပေးဖို့အတွက် အားလုံးပူးပေါင်းပြီး စစ်ဆင်ရေးတစ်ခု လုပ်ဆောင်ရမယ့် အကြောင်းရင်းကို ဖော်ပြထားပါတယ်။",
+      "narrationSegments": [
+        {
+          "id": 1,
+          "text": "သုံးနှစ်ဆိုတဲ့ အချိန်ကာလတစ်ခု ကုန်ဆုံးသွားခဲ့ပြီ။ နောက်ဆုံးတော့ သူ ပြန်လာခဲ့ပါပြီ။ ဒီမြို့တော်ကြီးတစ်ခုလုံးက သူ့ရဲ့ ပြန်လာမှုကို တမ်းတတမ်းတနဲ့ စောင့်မျှော်နေခဲ့တာပါ။"
+        },
+        {
+          "id": 2,
+          "text": "ဒါပေမဲ့ ပြန်လာတာနဲ့တင် အရာအားလုံး ပြီးဆုံးသွားတာ မဟုတ်ပါဘူး။ မြို့တော်ရဲ့ လုံခြုံရေးနဲ့ ပြည်သူလူထုရဲ့ အသက်အိုးအိမ်စည်းစိမ်ကို ကာကွယ်ဖို့အတွက် ကျွန်တော်တို့ ဒီနေ့ပဲ အတူလက်တွဲပြီး တိုက်ပွဲဝင်ကြရတော့မှာ ဖြစ်ပါတယ်။"
+        }
+      ],
+      "approved": true
+    },
+    "narration": {
+      "audioPath": "/app/applet/uploads/projects/proj_mwf2nj8f_lgkt/narration.mp3",
+      "durationSeconds": 18.078666666666667,
+      "voiceUsed": "my-MM-NilarNeural",
+      "providerUsed": "edge"
+    },
+    "subtitles": {
+      "srtPath": "/app/applet/uploads/projects/proj_mwf2nj8f_lgkt/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/proj_mwf2nj8f_lgkt/subtitles.ass",
+      "cuesCount": 2
+    },
+    "export": {
+      "videoPath": "/app/applet/uploads/projects/proj_mwf2nj8f_lgkt/final_recap.mp4",
+      "srtPath": "/app/applet/uploads/projects/proj_mwf2nj8f_lgkt/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/proj_mwf2nj8f_lgkt/subtitles.ass",
+      "scriptPath": "/app/applet/uploads/projects/proj_mwf2nj8f_lgkt/recap_script.txt",
+      "renderedAt": "2026-11-13T14:28:48.159Z"
+    }
+  },
+  {
+    "id": "proj_mwf2n5ij_ec1z",
+    "title": "E2E Subtitle Test",
+    "originalFilename": "mandarin_dialogue.mp4",
+    "fileSize": 107943,
+    "duration": 11,
+    "videoWidth": 1280,
+    "videoHeight": 720,
+    "createdAt": "2026-11-13T14:27:57.105Z",
+    "updatedAt": "2026-11-13T14:28:14.503Z",
+    "status": "completed",
+    "currentStep": 13,
+    "progress": 100,
+    "currentStepTitle": "ပြီးစီးပါပြီ! အသစ်ပြန်လည် တည်းဖြတ်ပြီးပါပြီ",
+    "mode": "subtitle",
+    "settings": {
+      "mode": "subtitle",
+      "recapLength": "short",
+      "narrationStyle": "dramatic",
+      "ttsProvider": "edge",
+      "ttsVoice": "my-MM-NilarNeural",
+      "speakingRate": "1.00x",
+      "originalAudioVolume": 0,
+      "narrationVolume": 1,
+      "bgmVolume": 0.2,
+      "burnSubtitles": true,
+      "fontSize": 18,
+      "characterVoices": [
+        {
+          "speaker": "ဇာတ်ကောင် ၁",
+          "voiceId": "my-MM-NilarNeural"
+        },
+        {
+          "speaker": "ဇာတ်ကောင် ၂",
+          "voiceId": "my-MM-ThihaNeural"
+        }
+      ],
+      "subtitleStyle": {
+        "posX": 50,
+        "posY": 88,
+        "fontSizeScale": 1,
+        "bgMaskEnabled": true,
+        "bgBlur": 8,
+        "bgMaskOpacity": 0.6
+      }
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-13T14:27:57.105Z",
+        "step": 1,
+        "message": "ဗီဒီယိုဖိုင် \"mandarin_dialogue.mp4\" (0.1 MB) တင်သွင်းပြီးပါပြီ [SUBTITLE MODE]",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:27:57.117Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:27:57.251Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက်: 11s · 1280x720 · Audio stream detected",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:27:57.257Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:27:57.422Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono MP3)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:27:57.427Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:27:57.880Z",
+        "step": 4,
+        "message": "Groq Whisper ဖြင့် စကားပြော အပိုင်း 2 ခု မှတ်သားပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:27:58.162Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 6 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:05.353Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 0 ခု ဖတ်ရှုတွေ့ရှိပါသည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:05.360Z",
+        "step": 8,
+        "message": "တရုတ်စကားပြောများကို အချိန်ကိုက် မြန်မာစာတန်း ဘာသာပြန်ခြင်း (Subtitle) (gemini)...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:08.409Z",
+        "step": 9,
+        "message": "စကားပြော အပိုင်း 2 ခုကို မြန်မာဘာသာသို့ ပြန်ဆိုပြီးပါပြီ။ အတည်ပြုရန် စောင့်ဆိုင်းနေပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:09.236Z",
+        "step": 9,
+        "message": "စာသားများကို အတည်ပြုပြီး ဗီဒီယို ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:28:11.118Z",
+        "step": 13,
+        "message": "အပြီးသတ် MP4 ဗီဒီယို ဖန်တီးမှု အောင်မြင်ပါပြီ (SUBTITLE MODE)",
+        "type": "success"
+      }
+    ],
+    "error": null,
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 4.74,
+          "text": "三年过去了,你终于回来了。这座城市一直在等你。"
+        },
+        {
+          "id": 2,
+          "start": 5.86,
+          "end": 9.16,
+          "text": "为了保护大家的安全,我们今天必须联手行动。"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [],
+      "frameCount": 6
+    },
+    "dialogueScript": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 4.74,
+          "chineseText": "三年过去了,你终于回来了。这座城市一直在等你。",
+          "burmeseText": "သုံးနှစ်ကြာပြီးတဲ့နောက်မှာ မင်းနောက်ဆုံးတော့ ပြန်ရောက်လာပြီ။ ဒီမြို့က မင်းကို အမြဲတမ်းစောင့်မျှော်နေခဲ့တာ။",
+          "speaker": "ဇာတ်ကောင် ၁",
+          "emotion": "စိတ်လှုပ်ရှား"
+        },
+        {
+          "id": 2,
+          "start": 5.86,
+          "end": 9.16,
+          "chineseText": "为了保护大家的安全,我们今天必须联手行动。",
+          "burmeseText": "အားလုံးရဲ့လုံခြုံရေးအတွက် ဒီနေ့မှာတော့ ငါတို့လက်တွဲပြီး လုပ်ဆောင်မှကို ဖြစ်မယ်။",
+          "speaker": "ဇာတ်ကောင် ၂",
+          "emotion": "တည်ငြိမ်"
+        }
+      ],
+      "characterVoices": [
+        {
+          "speaker": "ဇာတ်ကောင် ၁",
+          "voiceId": "my-MM-NilarNeural"
+        },
+        {
+          "speaker": "ဇာတ်ကောင် ၂",
+          "voiceId": "my-MM-ThihaNeural"
+        }
+      ],
+      "approved": true
+    },
+    "subtitles": {
+      "srtPath": "/app/applet/uploads/projects/proj_mwf2n5ij_ec1z/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/proj_mwf2n5ij_ec1z/subtitles.ass",
+      "cuesCount": 2
+    },
+    "export": {
+      "videoPath": "/app/applet/uploads/projects/proj_mwf2n5ij_ec1z/final_recap.mp4",
+      "srtPath": "/app/applet/uploads/projects/proj_mwf2n5ij_ec1z/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/proj_mwf2n5ij_ec1z/subtitles.ass",
+      "scriptPath": "/app/applet/uploads/projects/proj_mwf2n5ij_ec1z/dialogue_script.txt",
+      "renderedAt": "2026-11-13T14:28:14.501Z"
+    }
+  },
+  {
+    "id": "proj_mwf2f3bq",
+    "title": "1000304006",
+    "originalFilename": "1000304006.mp4",
+    "fileSize": 13301005,
+    "duration": 59.977771,
+    "videoWidth": 720,
+    "videoHeight": 1280,
+    "createdAt": "2026-11-13T14:21:41.094Z",
+    "updatedAt": "2026-11-13T14:23:11.109Z",
+    "status": "completed",
+    "currentStep": 13,
+    "progress": 100,
+    "currentStepTitle": "ပြီးစီးပါပြီ! အပြီးသတ် MP4, SRT နှင့် ASS ဖိုင်များကို ဒေါင်းလုဒ်လုပ်နိုင်ပါပြီ",
+    "mode": "recap",
+    "settings": {
+      "mode": "recap",
+      "recapLength": "long",
+      "narrationStyle": "informative",
+      "ttsProvider": "edge",
+      "ttsVoice": "my-MM-ThihaNeural",
+      "speakingRate": "1.50x",
+      "originalAudioVolume": 0,
+      "narrationVolume": 1,
+      "bgmVolume": 0.2,
+      "burnSubtitles": true,
+      "fontSize": 18,
+      "characterVoices": [],
+      "subtitleStyle": {
+        "posX": 50,
+        "posY": 77,
+        "fontSizeScale": 1,
+        "bgMaskEnabled": false,
+        "bgMaskOpacity": 0.65,
+        "bgBlur": 0
+      }
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-13T14:21:41.094Z",
+        "step": 1,
+        "message": "ဗီဒီယိုဖိုင် \"1000304006.mp4\" (12.7 MB) တင်သွင်းပြီးပါပြီ [RECAP MODE]",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:21:41.105Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:21:41.233Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက်: 60s · 720x1280",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:21:41.239Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:21:41.702Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono MP3)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:21:41.706Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:21:42.918Z",
+        "step": 4,
+        "message": "Groq Whisper ဖြင့် စကားပြော အပိုင်း 33 ခု မှတ်သားပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:21:44.677Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 12 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:22:03.604Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 2 ခု ဖတ်ရှုတွေ့ရှိပါသည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:22:03.610Z",
+        "step": 8,
+        "message": "AI (gemini) ဖြင့် ဇာတ်လမ်းခွဲခြမ်းစိတ်ဖြာနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:22:20.926Z",
+        "step": 9,
+        "message": "မြန်မာ ဇာတ်ကြောင်းပြောစာသား အပိုင်း 5 ခု ရေးသားပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:22:32.378Z",
+        "step": 9,
+        "message": "အသုံးပြုသူမှ ဇာတ်ညွှန်း သို့မဟုတ် ဇာတ်ကောင်အသံကို တည်းဖြတ်ပြင်ဆင်ခဲ့သည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:22:32.595Z",
+        "step": 9,
+        "message": "စာသားများကို အတည်ပြုပြီး ဗီဒီယို ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:23:11.111Z",
+        "step": 13,
+        "message": "အပြီးသတ် MP4 ဗီဒီယို ဖန်တီးမှု အောင်မြင်ပါပြီ (RECAP MODE)",
+        "type": "success"
+      }
+    ],
+    "error": null,
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 2.2,
+          "text": "他走他的"
+        },
+        {
+          "id": 2,
+          "start": 2.2,
+          "end": 4.42,
+          "text": "跟你们租金有什么关系"
+        },
+        {
+          "id": 3,
+          "start": 4.42,
+          "end": 6.04,
+          "text": "怎么没关系"
+        },
+        {
+          "id": 4,
+          "start": 6.04,
+          "end": 8.42,
+          "text": "以前那么多货车司机"
+        },
+        {
+          "id": 5,
+          "start": 8.42,
+          "end": 9.54,
+          "text": "采购商装卸工"
+        },
+        {
+          "id": 6,
+          "start": 9.54,
+          "end": 10.86,
+          "text": "他们全在这消费"
+        },
+        {
+          "id": 7,
+          "start": 10.86,
+          "end": 14.94,
+          "text": "现在都去瑞川了"
+        },
+        {
+          "id": 8,
+          "start": 14.94,
+          "end": 17.14,
+          "text": "这边一天"
+        },
+        {
+          "id": 9,
+          "start": 17.14,
+          "end": 18.22,
+          "text": "连以前三中都不到"
+        },
+        {
+          "id": 10,
+          "start": 18.22,
+          "end": 20.22,
+          "text": "生意不好是你们自己的问题"
+        },
+        {
+          "id": 11,
+          "start": 20.22,
+          "end": 21.66,
+          "text": "怎么成我们自己的问题"
+        },
+        {
+          "id": 12,
+          "start": 21.66,
+          "end": 23.18,
+          "text": "以前五点就忙"
+        },
+        {
+          "id": 13,
+          "start": 23.18,
+          "end": 24.68,
+          "text": "现在七点坐不满三桌"
+        },
+        {
+          "id": 14,
+          "start": 24.68,
+          "end": 26.48,
+          "text": "你让我们拿什么交原来的租金"
+        },
+        {
+          "id": 15,
+          "start": 26.48,
+          "end": 28.3,
+          "text": "那你想怎么样"
+        },
+        {
+          "id": 16,
+          "start": 28.3,
+          "end": 29.32,
+          "text": "先降一点"
+        },
+        {
+          "id": 17,
+          "start": 29.32,
+          "end": 30.62,
+          "text": "等重新招到大户"
+        },
+        {
+          "id": 18,
+          "start": 30.62,
+          "end": 32.08,
+          "text": "客流起来再调回去"
+        },
+        {
+          "id": 19,
+          "start": 32.08,
+          "end": 33.62,
+          "text": "对"
+        },
+        {
+          "id": 20,
+          "start": 33.62,
+          "end": 35.26,
+          "text": "我们不是不交"
+        },
+        {
+          "id": 21,
+          "start": 35.26,
+          "end": 36.8,
+          "text": "现在真撑不住"
+        },
+        {
+          "id": 22,
+          "start": 36.8,
+          "end": 41.5,
+          "text": "什么凭什么"
+        },
+        {
+          "id": 23,
+          "start": 41.5,
+          "end": 43.24,
+          "text": "以前你们赚钱"
+        },
+        {
+          "id": 24,
+          "start": 43.24,
+          "end": 45.84,
+          "text": "怎么没主动多给我租金"
+        },
+        {
+          "id": 25,
+          "start": 45.84,
+          "end": 47.46,
+          "text": "我们一直按合同交"
+        },
+        {
+          "id": 26,
+          "start": 47.46,
+          "end": 49.56,
+          "text": "现在也按合同交"
+        },
+        {
+          "id": 27,
+          "start": 49.56,
+          "end": 52.24,
+          "text": "市场情况不一样了"
+        },
+        {
+          "id": 28,
+          "start": 52.24,
+          "end": 53.02,
+          "text": "哪里不一样"
+        },
+        {
+          "id": 29,
+          "start": 53.02,
+          "end": 53.94,
+          "text": "楼"
+        },
+        {
+          "id": 30,
+          "start": 53.94,
+          "end": 55.42,
+          "text": "铺子水电都在"
+        },
+        {
+          "id": 31,
+          "start": 55.42,
+          "end": 56.42,
+          "text": "我少你们什么了"
+        },
+        {
+          "id": 32,
+          "start": 56.42,
+          "end": 58.76,
+          "text": "人没了"
+        },
+        {
+          "id": 33,
+          "start": 58.76,
+          "end": 59.98,
+          "text": "最重要的是"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [
+        {
+          "timestamp": 15,
+          "chineseText": "以前那么多货车"
+        },
+        {
+          "timestamp": 15,
+          "chineseText": "这边一天连以前三桌都不到"
+        }
+      ],
+      "frameCount": 12
+    },
+    "recapScript": {
+      "title": "အကျပ်အတည်းထဲက စီးပွားရေးစစ်ပွဲ",
+      "genre": "ဒရာမာ/စီးပွားရေး",
+      "narrationStyle": "informative",
+      "charactersSummary": [
+        {
+          "name": "သူဌေးလူငယ်",
+          "role": "အိမ်ရှင်/ပိုင်ရှင်",
+          "description": "လုပ်ငန်းခွင်၏ ပိုင်ရှင်ဖြစ်ပြီး အကျိုးအမြတ်ကိုသာ အဓိကထားကာ စာချုပ်ပါအတိုင်း တင်းကျပ်စွာ တောင်းဆိုသူ။"
+        },
+        {
+          "name": "စားသောက်ဆိုင်ပိုင်ရှင်များ",
+          "role": "ငှားရမ်းသူများ",
+          "description": "ဈေးကွက်ပျက်ပြီး ဝင်ငွေနည်းပါးလာသဖြင့် အငှားခလျှော့ချပေးရန် တောင်းဆိုနေကြသော ဆိုင်ရှင်များ။"
+        }
+      ],
+      "scenesSummary": [
+        {
+          "timeRange": "00:00 - 00:15",
+          "description": "အိမ်ရှင်လူငယ်နှင့် ဆိုင်ရှင်များကြား စီးပွားရေးကျဆင်းမှုကြောင့် အငှားခကိစ္စ အငြင်းပွားနေကြသည်။"
+        },
+        {
+          "timeRange": "00:16 - 00:35",
+          "description": "ဆိုင်ရှင်များက ဧည့်သည်နည်းပါးသွားသည့် အကြောင်းရင်းကို ရှင်းပြပြီး အငှားခ ခေတ္တလျှော့ချပေးရန် တောင်းဆိုသည်။"
+        },
+        {
+          "timeRange": "00:36 - 00:58",
+          "description": "အိမ်ရှင်က စာချုပ်အတိုင်းသာ လိုချင်ကြောင်း ငြင်းဆိုပြီး နှစ်ဦးကြား တင်းမာမှု မြင့်တက်လာသည်။"
+        }
+      ],
+      "synopsis": "ဤဇာတ်လမ်းမှာ လုပ်ငန်းခွင်တစ်ခုတွင် လူစီးကူးမှုနည်းပါးလာပြီး ဝင်ငွေကျဆင်းလာသော ဆိုင်ရှင်များနှင့် စာချုပ်ပါ အငှားခကိုသာ တင်းကျပ်စွာ တောင်းဆိုနေသော အိမ်ရှင်လူငယ်တို့ကြားက ပဋိပက္ခကို ပုံဖော်ထားသည်။ အခြေအနေအရပ်ရပ် ပြောင်းလဲသွားသော်လည်း အိမ်ရှင်က လက်တွေ့ဘဝအခြေအနေကို လျစ်လျူရှုကာ စာချုပ်အပေါ်တွင်သာ အခြေခံပြီး တောင်းဆိုနေသည့်အတွက် ဆိုင်ရှင်များမှာ အကြီးအကျယ် အကျပ်အတည်းနှင့် ရင်ဆိုင်နေရသည်။",
+      "narrationSegments": [
+        {
+          "id": 1,
+          "text": "ဒီဇာတ်လမ်းမှာတော့ လုပ်ငန်းခွင်တစ်ခုရဲ့ ပိုင်ရှင်နဲ့ ငှားရမ်းထားတဲ့ ဆိုင်ရှင်တွေကြားက စီးပွားရေးအကျပ်အတည်းကို ရင်ဆိုင်နေရပုံကို ပုံဖော်ထားပါတယ်။ အရင်က လူစည်ကားခဲ့တဲ့ ဒီနေရာဟာ အခုအခါမှာတော့ ဧည့်သည်တွေ နည်းပါးသွားလို့ ဆိုင်ရှင်တွေ အခက်တွေ့နေရပါပြီ။"
+        },
+        {
+          "id": 2,
+          "text": "ဆိုင်ရှင်တွေကတော့ ရိုးရှင်းပါတယ်။ ဧည့်သည်မရှိတော့လို့ ဝင်ငွေကျဆင်းနေတာကြောင့် အငှားခလေး ခဏလောက် လျှော့ပေးဖို့ အိမ်ရှင်ကို တောင်းဆိုလာကြပါတယ်။ ဒါပေမဲ့ အိမ်ရှင်ဖြစ်သူကတော့ အဲ့ဒီအချက်ကို နားလည်ပေးဖို့ ငြင်းဆန်နေပါတယ်။"
+        },
+        {
+          "id": 3,
+          "text": "အိမ်ရှင်လူငယ်ရဲ့ အမြင်မှာတော့ စီးပွားရေးကောင်းတုန်းက သူတို့ကို အပိုငွေတွေ တောင်းမစားခဲ့သလို အခုလည်း စာချုပ်အတိုင်းပဲ ပေးသွင်းရမယ်လို့ ခံယူထားပါတယ်။ သူ့အတွက်တော့ အဆောက်အဦး၊ ရေမီး အဆင်သင့်ရှိနေသမျှ ကိစ္စမရှိဘူးဆိုတဲ့ သဘောမျိုးပါ။"
+        },
+        {
+          "id": 4,
+          "text": "ဆိုင်ရှင်တွေကတော့ စားဝတ်နေရေးအတွက် တကယ့်ကို အသက်ရှင်ဖို့ ခက်ခဲနေပါပြီ။ ဈေးကွက်က ပြောင်းလဲသွားပြီ၊ လူတွေက တခြားနေရာကို ပြောင်းကုန်ပြီဆိုတဲ့ အချက်ကို အိမ်ရှင်က အသိအမှတ်မပြုဘဲ စာချုပ်ပါ စည်းကမ်းတွေကိုပဲ လက်ကိုင်ထားတာဟာ သူတို့အတွက်တော့ တရားမျှတမှု မရှိဘူးလို့ ခံစားနေရပါတယ်။"
+        },
+        {
+          "id": 5,
+          "text": "ဒီလိုနဲ့ နှစ်ဦးကြားက တင်းမာမှုဟာ ပိုပြီးတော့ ကြီးထွားလာပါတယ်။ စီးပွားရေးကျပ်တည်းချိန်မှာ အတူတူလက်တွဲမလား ဒါမှမဟုတ် စာချုပ်အတိုင်း တင်းကျပ်ပြီး ပဋိပက္ခတွေ ဆက်ဖြစ်မလားဆိုတာကတော့ စိတ်ဝင်စားဖို့ကောင်းတဲ့ အချက်တစ်ခုပါပဲ။"
+        }
+      ],
+      "approved": true
+    },
+    "narration": {
+      "audioPath": "/app/applet/uploads/projects/proj_mwf2f3bq/narration.mp3",
+      "durationSeconds": 49.25866666666666,
+      "voiceUsed": "my-MM-ThihaNeural",
+      "providerUsed": "edge"
+    },
+    "subtitles": {
+      "srtPath": "/app/applet/uploads/projects/proj_mwf2f3bq/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/proj_mwf2f3bq/subtitles.ass",
+      "cuesCount": 5
+    },
+    "export": {
+      "videoPath": "/app/applet/uploads/projects/proj_mwf2f3bq/final_recap.mp4",
+      "srtPath": "/app/applet/uploads/projects/proj_mwf2f3bq/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/proj_mwf2f3bq/subtitles.ass",
+      "scriptPath": "/app/applet/uploads/projects/proj_mwf2f3bq/recap_script.txt",
+      "renderedAt": "2026-11-13T14:23:11.106Z"
+    }
+  },
+  {
+    "id": "demo_mwf1pys4",
+    "title": "နမူနာ တရုတ်ရုပ်ရှင် (Dubbing Mode)",
+    "originalFilename": "chinese_sample_clip.mp4",
+    "fileSize": 75115,
+    "duration": 7,
+    "videoWidth": 1280,
+    "videoHeight": 720,
+    "createdAt": "2026-11-13T14:02:10.437Z",
+    "updatedAt": "2026-11-13T14:02:26.675Z",
+    "status": "completed",
+    "currentStep": 13,
+    "progress": 100,
+    "currentStepTitle": "ပြီးစီးပါပြီ! အပြီးသတ် MP4, SRT နှင့် ASS ဖိုင်များကို ဒေါင်းလုဒ်လုပ်နိုင်ပါပြီ",
+    "mode": "dubbing",
+    "settings": {
+      "mode": "dubbing",
+      "recapLength": "short",
+      "narrationStyle": "dramatic",
+      "ttsVoice": "my-MM-NilarNeural",
+      "speakingRate": "1.00x",
+      "originalAudioVolume": 0.15,
+      "narrationVolume": 1,
+      "bgmVolume": 0.2,
+      "burnSubtitles": true,
+      "fontSize": 18,
+      "characterVoices": [
+        {
+          "speaker": "Speaker 1",
+          "voiceId": "my-MM-NilarNeural"
+        },
+        {
+          "speaker": "Speaker 2",
+          "voiceId": "my-MM-ThihaNeural"
+        }
+      ],
+      "subtitleStyle": {
+        "posX": 50,
+        "posY": 82,
+        "fontSizeScale": 1,
+        "bgMaskEnabled": false,
+        "bgMaskOpacity": 0.7,
+        "bgBlur": 0
+      }
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-13T14:02:10.437Z",
+        "step": 1,
+        "message": "နမူနာ ဗီဒီယိုဖိုင် ဖန်တီးပြီးပါပြီ [DUBBING MODE]",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:10.447Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:10.689Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက်: 7s · 1280x720",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:10.692Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:10.974Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono MP3)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:10.978Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:11.387Z",
+        "step": 4,
+        "message": "Groq Whisper ဖြင့် စကားပြော အပိုင်း 2 ခု မှတ်သားပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:11.834Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 4 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:14.128Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 0 ခု ဖတ်ရှုတွေ့ရှိပါသည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:14.132Z",
+        "step": 8,
+        "message": "တရုတ်စကားပြောများကို ဇာတ်ကောင်အလိုက် မြန်မာစကားပြော ဘာသာပြန်ခြင်း (Dubbing) (gemini)...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:21.565Z",
+        "step": 9,
+        "message": "စကားပြော အပိုင်း 2 ခုကို မြန်မာဘာသာသို့ ပြန်ဆိုပြီးပါပြီ။ အတည်ပြုရန် စောင့်ဆိုင်းနေပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:22.654Z",
+        "step": 9,
+        "message": "အသုံးပြုသူမှ ဇာတ်ညွှန်း သို့မဟုတ် ဇာတ်ကောင်အသံကို တည်းဖြတ်ပြင်ဆင်ခဲ့သည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:22.665Z",
+        "step": 9,
+        "message": "စာသားများကို အတည်ပြုပြီး ဗီဒီယို ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:26.676Z",
+        "step": 13,
+        "message": "အပြီးသတ် MP4 ဗီဒီယို ဖန်တီးမှု အောင်မြင်ပါပြီ (DUBBING MODE)",
+        "type": "success"
+      }
+    ],
+    "error": null,
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 2.24,
+          "text": "三年过去了,你终于回来了。"
+        },
+        {
+          "id": 2,
+          "start": 2.9,
+          "end": 5.62,
+          "text": "为了守护这座城市,我们必须联手。"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [],
+      "frameCount": 4
+    },
+    "dialogueScript": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 2.24,
+          "chineseText": "三年过去了,你终于回来了。",
+          "burmeseText": "သုံးနှစ်တောင် ကြာသွားပြီ၊ နောက်ဆုံးတော့ မင်း ပြန်လာပြီပေါ့။",
+          "speaker": "ဇာတ်ကောင် ၁",
+          "emotion": "တည်ငြိမ်"
+        },
+        {
+          "id": 2,
+          "start": 2.9,
+          "end": 5.62,
+          "chineseText": "为了守护这座城市,我们必须联手。",
+          "burmeseText": "ဒီမြို့ကို ကာကွယ်ဖို့ ငါတို့ လက်တွဲမှ ဖြစ်မယ်။",
+          "speaker": "ဇာတ်ကောင် ၁",
+          "emotion": "လေးနက်"
+        }
+      ],
+      "characterVoices": [
+        {
+          "speaker": "ဇာတ်ကောင် ၁",
+          "voiceId": "my-MM-NilarNeural"
+        }
+      ],
+      "approved": true
+    },
+    "narration": {
+      "audioPath": "/app/applet/uploads/projects/demo_mwf1pys4/dubbing.mp3",
+      "durationSeconds": 7.848,
+      "voiceUsed": "my-MM-NilarNeural",
+      "providerUsed": "edge"
+    },
+    "subtitles": {
+      "srtPath": "/app/applet/uploads/projects/demo_mwf1pys4/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/demo_mwf1pys4/subtitles.ass",
+      "cuesCount": 2
+    },
+    "export": {
+      "videoPath": "/app/applet/uploads/projects/demo_mwf1pys4/final_recap.mp4",
+      "srtPath": "/app/applet/uploads/projects/demo_mwf1pys4/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/demo_mwf1pys4/subtitles.ass",
+      "scriptPath": "/app/applet/uploads/projects/demo_mwf1pys4/dialogue_script.txt",
+      "renderedAt": "2026-11-13T14:02:26.673Z"
+    }
+  },
+  {
+    "id": "demo_mwf1or8o",
+    "title": "နမူနာ တရုတ်ရုပ်ရှင် (Recap Mode)",
+    "originalFilename": "chinese_sample_clip.mp4",
+    "fileSize": 73513,
+    "duration": 7,
+    "videoWidth": 1280,
+    "videoHeight": 720,
+    "createdAt": "2026-11-13T14:01:14.128Z",
+    "updatedAt": "2026-11-13T14:02:07.584Z",
+    "status": "completed",
+    "currentStep": 13,
+    "progress": 100,
+    "currentStepTitle": "ပြီးစီးပါပြီ! အပြီးသတ် MP4, SRT နှင့် ASS ဖိုင်များကို ဒေါင်းလုဒ်လုပ်နိုင်ပါပြီ",
+    "mode": "recap",
+    "settings": {
+      "mode": "recap",
+      "recapLength": "short",
+      "narrationStyle": "dramatic",
+      "ttsVoice": "my-MM-NilarNeural",
+      "speakingRate": "1.25x",
+      "originalAudioVolume": 0.15,
+      "narrationVolume": 1,
+      "bgmVolume": 0.2,
+      "burnSubtitles": true,
+      "fontSize": 18,
+      "subtitleStyle": {
+        "posX": 50,
+        "posY": 82,
+        "fontSizeScale": 1,
+        "bgMaskEnabled": false,
+        "bgMaskOpacity": 0.7,
+        "bgBlur": 0
+      }
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-13T14:01:14.128Z",
+        "step": 1,
+        "message": "နမူနာ ဗီဒီယိုဖိုင် ဖန်တီးပြီးပါပြီ [RECAP MODE]",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:14.136Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:14.390Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက်: 7s · 1280x720",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:14.393Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:14.660Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono MP3)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:14.663Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:15.053Z",
+        "step": 4,
+        "message": "Groq Whisper ဖြင့် စကားပြော အပိုင်း 2 ခု မှတ်သားပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:15.411Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 4 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:39.721Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 0 ခု ဖတ်ရှုတွေ့ရှိပါသည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:39.725Z",
+        "step": 8,
+        "message": "AI (gemini) ဖြင့် ဇာတ်လမ်းခွဲခြမ်းစိတ်ဖြာနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:52.314Z",
+        "step": 9,
+        "message": "မြန်မာ ဇာတ်ကြောင်းပြောစာသား အပိုင်း 4 ခု ရေးသားပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:52.416Z",
+        "step": 9,
+        "message": "စာသားများကို အတည်ပြုပြီး ဗီဒီယို ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:02:07.587Z",
+        "step": 13,
+        "message": "အပြီးသတ် MP4 ဗီဒီယို ဖန်တီးမှု အောင်မြင်ပါပြီ (RECAP MODE)",
+        "type": "success"
+      }
+    ],
+    "error": null,
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 2.22,
+          "text": "三年过去了,你终于回来了。"
+        },
+        {
+          "id": 2,
+          "start": 2.9,
+          "end": 5.62,
+          "text": "为了守护这座城市,我们必须联手。"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [],
+      "frameCount": 4
+    },
+    "recapScript": {
+      "title": "သုံးနှစ်အကြာ ပြန်လည်ဆုံဆည်းခြင်းနှင့် မြို့တော်ကာကွယ်ရေး",
+      "genre": "အက်ရှင် / ဒရမ်မာ",
+      "narrationStyle": "dramatic",
+      "charactersSummary": [
+        {
+          "name": "ပြန်လည်ရောက်ရှိလာသူ",
+          "role": "အဓိကဇာတ်ကောင်",
+          "description": "သုံးနှစ်ကြာ ခွဲခွာသွားခဲ့ပြီးနောက် မြို့တော်သို့ နောက်ဆုံးတွင် ပြန်လည်ရောက်ရှိလာသူ။"
+        },
+        {
+          "name": "စောင့်မျှော်နေသူ",
+          "role": "အဓိကဇာတ်ကောင်",
+          "description": "သုံးနှစ်တာ စောင့်ဆိုင်းနေခဲ့ပြီး မြို့တော်ကို ကာကွယ်ရန် လက်တွဲပူးပေါင်းဖို့ တိုက်တွန်းပြောဆိုသူ။"
+        }
+      ],
+      "scenesSummary": [
+        {
+          "timeRange": "00:00 - 00:02",
+          "description": "အမှောင်ထုဖုံးလွှမ်းနေသော မြင်ကွင်းအတွင်း သုံးနှစ်ကြာ ကုန်လွန်ပြီးနောက် ပြန်လည်ရောက်ရှိလာသူကို ကြိုဆိုပြောဆိုသည့် အသံထွက်ပေါ်လာသည်။"
+        },
+        {
+          "timeRange": "00:02 - 00:07",
+          "description": "မြို့တော်ကြီးကို ကာကွယ်စောင့်ရှောက်နိုင်ရန်အတွက် နှစ်ဦးသား မဖြစ်မနေ လက်တွဲပူးပေါင်းရမည်ဖြစ်ကြောင်း အလေးအနက် ပြောကြားသည်။"
+        }
+      ],
+      "synopsis": "သုံးနှစ်တာ ကုန်လွန်ခဲ့ပြီးနောက် စောင့်မျှော်နေခဲ့ရသူတစ်ဦး ပြန်လည်ရောက်ရှိလာခဲ့သည်။ မြို့တော်ကြီးကို ကာကွယ်စောင့်ရှောက်နိုင်ရန်အတွက် ၎င်းတို့နှစ်ဦးသည် အတူတကွ လက်တွဲပူးပေါင်းရန် မဖြစ်မနေ လိုအပ်နေပြီဖြစ်ကြောင်း ဖော်ပြထားသည့် ဇာတ်လမ်းတို ဖြစ်သည်။",
+      "narrationSegments": [
+        {
+          "id": 1,
+          "text": "အမှောင်ထု ကြီးစိုးနေတဲ့ မြင်ကွင်းနောက်ကွယ်ကနေ ရင်ခုန်စိတ်လှုပ်ရှားဖွယ် စကားသံတစ်ခုက တိတ်ဆိတ်မှုကို ဖြိုခွင်းလိုက်ပါတယ်။"
+        },
+        {
+          "id": 2,
+          "text": "သုံးနှစ်ဆိုတဲ့ အချိန်ကာလကြီး ကုန်လွန်သွားခဲ့ပြီးတဲ့နောက်မှာတော့ စောင့်မျှော်နေခဲ့ရသူဟာ နောက်ဆုံးမှာ ပြန်လည်ရောက်ရှိလာခဲ့ပါပြီ။"
+        },
+        {
+          "id": 3,
+          "text": "ဒီပြန်လည်ဆုံဆည်းမှုဟာ သာမန်တွေ့ဆုံမှုတစ်ခု မဟုတ်ဘဲ ကြီးမားတဲ့ ရည်ရွယ်ချက်တစ်ခုအတွက် ဖြစ်နေခဲ့တာပါ။"
+        },
+        {
+          "id": 4,
+          "text": "ဒီမြို့တော်ကြီးကို ကာကွယ်စောင့်ရှောက်နိုင်ဖို့အတွက် သူတို့နှစ်ဦး မဖြစ်မနေ လက်တွဲပူးပေါင်းကြရတော့မယ့် အချိန်ကို ရောက်ရှိလာခဲ့ပါပြီ။"
+        }
+      ],
+      "approved": true
+    },
+    "narration": {
+      "audioPath": "/app/applet/uploads/projects/demo_mwf1or8o/narration.mp3",
+      "durationSeconds": 27.684,
+      "voiceUsed": "my-MM-NilarNeural",
+      "providerUsed": "edge"
+    },
+    "subtitles": {
+      "srtPath": "/app/applet/uploads/projects/demo_mwf1or8o/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/demo_mwf1or8o/subtitles.ass",
+      "cuesCount": 4
+    },
+    "export": {
+      "videoPath": "/app/applet/uploads/projects/demo_mwf1or8o/final_recap.mp4",
+      "srtPath": "/app/applet/uploads/projects/demo_mwf1or8o/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/demo_mwf1or8o/subtitles.ass",
+      "scriptPath": "/app/applet/uploads/projects/demo_mwf1or8o/recap_script.txt",
+      "renderedAt": "2026-11-13T14:02:07.583Z"
+    }
+  },
+  {
+    "id": "demo_mwf1no61",
+    "title": "နမူနာ တရုတ်ရုပ်ရှင် (Subtitle Mode)",
+    "originalFilename": "chinese_sample_clip.mp4",
+    "fileSize": 74201,
+    "duration": 7,
+    "videoWidth": 1280,
+    "videoHeight": 720,
+    "createdAt": "2026-11-13T14:00:23.538Z",
+    "updatedAt": "2026-11-13T14:01:12.159Z",
+    "status": "completed",
+    "currentStep": 13,
+    "progress": 100,
+    "currentStepTitle": "ပြီးစီးပါပြီ! အပြီးသတ် MP4, SRT နှင့် ASS ဖိုင်များကို ဒေါင်းလုဒ်လုပ်နိုင်ပါပြီ",
+    "mode": "subtitle",
+    "settings": {
+      "mode": "subtitle",
+      "recapLength": "short",
+      "narrationStyle": "dramatic",
+      "ttsVoice": "my-MM-NilarNeural",
+      "speakingRate": "1.00x",
+      "originalAudioVolume": 1,
+      "narrationVolume": 1,
+      "bgmVolume": 0.2,
+      "burnSubtitles": true,
+      "fontSize": 18,
+      "characterVoices": [
+        {
+          "speaker": "ဇာတ်ကောင် ၁",
+          "voiceId": "my-MM-NilarNeural"
+        }
+      ],
+      "subtitleStyle": {
+        "posX": 50,
+        "posY": 82,
+        "fontSizeScale": 1,
+        "bgMaskEnabled": true,
+        "bgMaskOpacity": 0.7,
+        "bgBlur": 8
+      }
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-13T14:00:23.538Z",
+        "step": 1,
+        "message": "နမူနာ ဗီဒီယိုဖိုင် ဖန်တီးပြီးပါပြီ [SUBTITLE MODE]",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:00:23.551Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:00:23.807Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက်: 7s · 1280x720",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:00:23.810Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:00:24.109Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono MP3)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:00:24.112Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:00:24.575Z",
+        "step": 4,
+        "message": "Groq Whisper ဖြင့် စကားပြော အပိုင်း 2 ခု မှတ်သားပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:00:24.988Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 4 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:00:54.999Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 0 ခု ဖတ်ရှုတွေ့ရှိပါသည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:00:55.004Z",
+        "step": 8,
+        "message": "တရုတ်စကားပြောများကို အချိန်ကိုက် မြန်မာစာတန်း ဘာသာပြန်ခြင်း (Subtitle) (gemini)...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:09.489Z",
+        "step": 9,
+        "message": "စကားပြော အပိုင်း 2 ခုကို မြန်မာဘာသာသို့ ပြန်ဆိုပြီးပါပြီ။ အတည်ပြုရန် စောင့်ဆိုင်းနေပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:09.872Z",
+        "step": 9,
+        "message": "စာသားများကို အတည်ပြုပြီး ဗီဒီယို ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:11.480Z",
+        "step": 13,
+        "message": "အပြီးသတ် MP4 ဗီဒီယို ဖန်တီးမှု အောင်မြင်ပါပြီ (SUBTITLE MODE)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-13T14:01:12.161Z",
+        "step": 13,
+        "message": "ယာယီဖိုင်များ ရှင်းလင်းပြီးပါပြီ (0.06 MB သက်သာ)",
+        "type": "info"
+      }
+    ],
+    "error": null,
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 2.22,
+          "text": "三年过去了,你终于回来了。"
+        },
+        {
+          "id": 2,
+          "start": 2.9,
+          "end": 5.62,
+          "text": "为了守护这座城市,我们必须联手。"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [],
+      "frameCount": 4
+    },
+    "dialogueScript": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 2.22,
+          "chineseText": "三年过去了,你终于回来了。",
+          "burmeseText": "သုံးနှစ်ကြာပြီးတဲ့နောက်မှာတော့ မင်း နောက်ဆုံးတော့ ပြန်ရောက်လာပြီပဲ။",
+          "speaker": "ဇာတ်ကောင် ၁",
+          "emotion": "စိတ်လှုပ်ရှား"
+        },
+        {
+          "id": 2,
+          "start": 2.9,
+          "end": 5.62,
+          "chineseText": "为了守护这座城市,我们必须联手。",
+          "burmeseText": "ဒီမြို့ကို ကာကွယ်ဖို့အတွက် ငါတို့ လက်တွဲကိုကို ဖြစ်မယ်။",
+          "speaker": "ဇာတ်ကောင် ၁",
+          "emotion": "တည်ငြိမ်"
+        }
+      ],
+      "characterVoices": [
+        {
+          "speaker": "ဇာတ်ကောင် ၁",
+          "voiceId": "my-MM-NilarNeural"
+        }
+      ],
+      "approved": true
+    },
+    "subtitles": {
+      "srtPath": "/app/applet/uploads/projects/demo_mwf1no61/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/demo_mwf1no61/subtitles.ass",
+      "cuesCount": 2
+    },
+    "export": {
+      "videoPath": "/app/applet/uploads/projects/demo_mwf1no61/final_recap.mp4",
+      "srtPath": "/app/applet/uploads/projects/demo_mwf1no61/subtitles.srt",
+      "assPath": "/app/applet/uploads/projects/demo_mwf1no61/subtitles.ass",
+      "scriptPath": "/app/applet/uploads/projects/demo_mwf1no61/dialogue_script.txt",
+      "renderedAt": "2026-11-13T14:01:11.477Z"
+    },
+    "tempCleaned": true
+  },
+  {
+    "id": "demo_mwauryix",
+    "title": "နမူနာ တရုတ်ရုပ်ရှင် ဇာတ်လမ်းတို (Demo Clip)",
+    "originalFilename": "chinese_action_sample.mp4",
+    "fileSize": 158944,
+    "duration": 8,
+    "videoWidth": 1280,
+    "videoHeight": 720,
+    "createdAt": "2026-11-10T15:36:41.993Z",
+    "updatedAt": "2026-11-10T15:36:58.861Z",
+    "status": "completed",
+    "currentStep": 13,
+    "progress": 100,
+    "currentStepTitle": "ပြီးစီးပါပြီ! အပြီးသတ် MP4 ဗီဒီယိုကို ဒေါင်းလုဒ်လုပ်နိုင်ပါပြီ",
+    "settings": {
+      "recapLength": "short",
+      "ttsVoice": "my-MM-NilarNeural",
+      "speakingRate": "1.50x",
+      "originalAudioVolume": 0.15,
+      "burnSubtitles": true,
+      "fontSize": 18
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-10T15:36:41.993Z",
+        "step": 1,
+        "message": "နမူနာ ဗီဒီယိုဖိုင် အဆင်သင့် ဖန်တီးပြီးပါပြီ။",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:42.001Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:42.147Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက် စစ်ဆေးမှု အောင်မြင်သည်: ကြာချိန် 8 စက္ကန့်၊ ရုပ်ထွက် 1280x720",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:42.156Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:42.392Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono audio)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:42.395Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:42.770Z",
+        "step": 4,
+        "message": "တရုတ်စကားပြော အပိုင်း 1 ခုကို မှတ်သားနိုင်ခဲ့ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:42.773Z",
+        "step": 5,
+        "message": "စာတန်းနှင့် အရေးကြီးသော အခန်းများကို ဖတ်ရှုရန် ဖရိမ်များ ထုတ်ယူနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:43.270Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 3 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:43.272Z",
+        "step": 6,
+        "message": "ဗီဒီယိုဖရိမ်များရှိ တရုတ်စာတန်းများကို OCR စနစ်ဖြင့် ဖတ်ရှုစစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:44.986Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 1 ခုကို ရှာဖွေတွေ့ရှိပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:44.991Z",
+        "step": 8,
+        "message": "တရုတ်စကားပြောနှင့် စာတန်းများကို သုံးသပ်ပြီး ဆွဲဆောင်မှုရှိသော မြန်မာဇာတ်လမ်းအကျဉ်းကို ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:47.182Z",
+        "step": 9,
+        "message": "မြန်မာ ဇာတ်ကြောင်းပြောစာသား အပိုင်း 2 ခု ရေးသားပြီးပါပြီ။ အတည်ပြုရန် စောင့်ဆိုင်းနေပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:51.239Z",
+        "step": 9,
+        "message": "အသုံးပြုသူမှ ဇာတ်ကြောင်းပြော စာသားကို တည်းဖြတ်ပြင်ဆင်ခဲ့သည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:51.394Z",
+        "step": 9,
+        "message": "ဇာတ်ကြောင်းပြောစာသားကို အတည်ပြုပြီး အသံထွက်ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:51.399Z",
+        "step": 10,
+        "message": "Burmese Neural Voice (my-MM-NilarNeural) ဖြင့် အသံဖိုင် ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:56.105Z",
+        "step": 11,
+        "message": "မြန်မာ အသံဖိုင် (18s) နှင့် အချိန်ကိုက် SRT စာတန်း 2 ခု အောင်မြင်စွာ ဖန်တီးပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:56.107Z",
+        "step": 12,
+        "message": "မူရင်းဗီဒီယိုနှင့် မြန်မာအသံထွက်ကို ပေါင်းစပ်ပြီး Noto Sans Myanmar ဖောင့်ဖြင့် စာတန်းထိုးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-10T15:36:58.862Z",
+        "step": 13,
+        "message": "မြန်မာ ရုပ်ရှင်ပြန်ပြောပြချက် ဗီဒီယို ထုတ်လုပ်မှု အောင်မြင်စွာ ပြီးဆုံးပါပြီ!",
+        "type": "success"
+      }
+    ],
+    "error": null,
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 8,
+          "text": "-"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [
+        {
+          "timestamp": 1,
+          "chineseText": "【全剧终/序幕】"
+        }
+      ],
+      "frameCount": 3
+    },
+    "recapScript": {
+      "title": "ဇာတ်သိမ်းပိုင်းနှင့် အစပျိုးခြင်း",
+      "genre": "ဒရမ်မာ",
+      "charactersSummary": [
+        {
+          "name": "အဓိကဇာတ်ကောင်",
+          "role": "ဇာတ်ဆောင်",
+          "description": "ဇာတ်လမ်း၏ အဓိကဗဟိုချက်တွင် ပါဝင်သူ"
+        }
+      ],
+      "synopsis": "ဤသည်မှာ ဇာတ်လမ်းတစ်ခု၏ အဆုံးသတ် သို့မဟုတ် အစပျိုးခြင်းကို ပြသထားသည့် အပိုင်းဖြစ်ပြီး ဇာတ်လမ်း၏ အရေးပါသော အလှည့်အပြောင်းတစ်ခုကို ဖော်ပြနေသည်။",
+      "narrationSegments": [
+        {
+          "id": 1,
+          "text": "ဒီနေ့မှာတော့ ဇာတ်လမ်းတစ်ပုဒ်ရဲ့ အဆုံးသတ် ဒါမှမဟုတ် အစပျိုးခြင်းကို အတူတူကြည့်ရှုရမှာ ဖြစ်ပါတယ်။ ဇာတ်ကြောင်းရဲ့ အရေးပါတဲ့ အလှည့်အပြောင်းတစ်ခုကို ဒီအပိုင်းကနေ တစ်ဆင့် မြင်တွေ့ရမှာပါ။"
+        },
+        {
+          "id": 2,
+          "text": "ဇာတ်လမ်းရဲ့ အနှစ်သာရတွေနဲ့ ပြည့်စုံနေတဲ့ ဒီအခိုက်အတန့်က ပရိသတ်တွေကို စိတ်လှုပ်ရှားမှုအသစ်တွေပေးစွမ်းမှာ အသေအချာပါပဲ။ နောက်ထပ်ဖြစ်လာမယ့် အကြောင်းအရာတွေကို ဆက်လက်စောင့်မျှော်အားပေးကြပါဦး။"
+        }
+      ],
+      "approved": true
+    },
+    "narration": {
+      "audioPath": "/app/applet/uploads/projects/demo_mwauryix/narration.mp3",
+      "durationSeconds": 17.886666666666667,
+      "voiceUsed": "my-MM-NilarNeural"
+    },
+    "subtitles": {
+      "srtPath": "/app/applet/uploads/projects/demo_mwauryix/subtitles.srt",
+      "cuesCount": 2
+    },
+    "export": {
+      "videoPath": "/app/applet/uploads/projects/demo_mwauryix/final_recap.mp4",
+      "srtPath": "/app/applet/uploads/projects/demo_mwauryix/subtitles.srt",
+      "scriptPath": "/app/applet/uploads/projects/demo_mwauryix/recap_script.txt",
+      "renderedAt": "2026-11-10T15:36:58.860Z"
+    }
+  },
+  {
+    "id": "proj_mw8vu0to",
+    "title": "1000303833",
+    "originalFilename": "1000303833.mp4",
+    "fileSize": 16167842,
+    "duration": 30.011135,
+    "videoWidth": 1080,
+    "videoHeight": 1920,
+    "createdAt": "2026-11-09T06:30:43.409Z",
+    "updatedAt": "2026-11-13T14:27:24.351Z",
+    "status": "failed",
+    "currentStep": 12,
+    "progress": 90,
+    "currentStepTitle": "ဆာဗာ ရပ်တန့်မှုကြောင့် ပြန်လည်စတင်ရန် လိုအပ်ပါသည် (Retry Ready)",
+    "settings": {
+      "recapLength": "long",
+      "ttsVoice": "my-MM-ThihaNeural",
+      "speakingRate": "+10%",
+      "originalAudioVolume": 0,
+      "burnSubtitles": false,
+      "fontSize": 18
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-09T06:30:43.409Z",
+        "step": 1,
+        "message": "ဗီဒီယိုဖိုင် \"1000303833.mp4\" (15.4 MB) ကို အောင်မြင်စွာ တင်ပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:30:43.413Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:30:43.560Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက် စစ်ဆေးမှု အောင်မြင်သည်: ကြာချိန် 30 စက္ကန့်၊ ရုပ်ထွက် 1080x1920",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:30:43.561Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:30:43.897Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono audio)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:30:43.899Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:30:44.544Z",
+        "step": 4,
+        "message": "တရုတ်စကားပြော အပိုင်း 17 ခုကို မှတ်သားနိုင်ခဲ့ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:30:44.558Z",
+        "step": 5,
+        "message": "စာတန်းနှင့် အရေးကြီးသော အခန်းများကို ဖတ်ရှုရန် ဖရိမ်များ ထုတ်ယူနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:30:47.048Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 10 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:30:47.050Z",
+        "step": 6,
+        "message": "ဗီဒီယိုဖရိမ်များရှိ တရုတ်စာတန်းများကို OCR စနစ်ဖြင့် ဖတ်ရှုစစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:30:53.353Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 8 ခုကို ရှာဖွေတွေ့ရှိပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:30:53.355Z",
+        "step": 8,
+        "message": "တရုတ်စကားပြောနှင့် စာတန်းများကို သုံးသပ်ပြီး ဆွဲဆောင်မှုရှိသော မြန်မာဇာတ်လမ်းအကျဉ်းကို ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:30:58.739Z",
+        "step": 9,
+        "message": "မြန်မာ ဇာတ်ကြောင်းပြောစာသား အပိုင်း 14 ခု ရေးသားပြီးပါပြီ။ အတည်ပြုရန် စောင့်ဆိုင်းနေပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:31:01.199Z",
+        "step": 9,
+        "message": "အသုံးပြုသူမှ ဇာတ်ကြောင်းပြော စာသားကို တည်းဖြတ်ပြင်ဆင်ခဲ့သည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:31:01.350Z",
+        "step": 9,
+        "message": "ဇာတ်ကြောင်းပြောစာသားကို အတည်ပြုပြီး အသံထွက်ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:31:01.353Z",
+        "step": 10,
+        "message": "Burmese Neural Voice (my-MM-ThihaNeural) ဖြင့် အသံဖိုင် ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:31:58.302Z",
+        "step": 11,
+        "message": "မြန်မာ အသံဖိုင် (103s) နှင့် အချိန်ကိုက် SRT စာတန်း 14 ခု အောင်မြင်စွာ ဖန်တီးပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:31:58.303Z",
+        "step": 12,
+        "message": "မူရင်းဗီဒီယိုနှင့် မြန်မာအသံထွက်ကို ပေါင်းစပ်ပြီး Noto Sans Myanmar ဖောင့်ဖြင့် စာတန်းထိုးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:27:24.351Z",
+        "step": 12,
+        "message": "Server restarted mid-job; marked ready for Retry.",
+        "type": "warn"
+      }
+    ],
+    "error": "ဆာဗာ ပြန်လည်စတင်ချိန်တွင် လုပ်ငန်းစဉ် ရပ်တန့်သွားပါသည် — Retry ခလုတ်ကို နှိပ်၍ ဆက်လက်လုပ်ဆောင်နိုင်ပါသည်",
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 2.2,
+          "text": "他走他的"
+        },
+        {
+          "id": 2,
+          "start": 2.2,
+          "end": 4.42,
+          "text": "跟你们租金有什么关系"
+        },
+        {
+          "id": 3,
+          "start": 4.42,
+          "end": 6.04,
+          "text": "怎么没关系"
+        },
+        {
+          "id": 4,
+          "start": 6.04,
+          "end": 8.42,
+          "text": "以前那么多货车司机"
+        },
+        {
+          "id": 5,
+          "start": 8.42,
+          "end": 9.54,
+          "text": "采购商装卸工"
+        },
+        {
+          "id": 6,
+          "start": 9.54,
+          "end": 10.84,
+          "text": "他们全在这消费"
+        },
+        {
+          "id": 7,
+          "start": 10.84,
+          "end": 14.74,
+          "text": "现在都去瑞川了"
+        },
+        {
+          "id": 8,
+          "start": 14.74,
+          "end": 17.16,
+          "text": "这边一天"
+        },
+        {
+          "id": 9,
+          "start": 17.16,
+          "end": 18.22,
+          "text": "连以前三中都不到"
+        },
+        {
+          "id": 10,
+          "start": 18.22,
+          "end": 20.22,
+          "text": "生意不好是你们自己的问题"
+        },
+        {
+          "id": 11,
+          "start": 20.22,
+          "end": 21.66,
+          "text": "怎么成我们自己的问题"
+        },
+        {
+          "id": 12,
+          "start": 21.66,
+          "end": 23.18,
+          "text": "以前五点就忙"
+        },
+        {
+          "id": 13,
+          "start": 23.18,
+          "end": 24.68,
+          "text": "现在七点坐不满三桌"
+        },
+        {
+          "id": 14,
+          "start": 24.68,
+          "end": 26.48,
+          "text": "你让我们拿什么交原来的租金"
+        },
+        {
+          "id": 15,
+          "start": 26.48,
+          "end": 28.3,
+          "text": "那你想怎么样"
+        },
+        {
+          "id": 16,
+          "start": 28.3,
+          "end": 29.32,
+          "text": "先降一点"
+        },
+        {
+          "id": 17,
+          "start": 29.32,
+          "end": 30.02,
+          "text": "等重新"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [
+        {
+          "timestamp": 0,
+          "chineseText": "他走他的"
+        },
+        {
+          "timestamp": 3,
+          "chineseText": "以前那么多货车"
+        },
+        {
+          "timestamp": 6,
+          "chineseText": "他们全在这消费"
+        },
+        {
+          "timestamp": 21,
+          "chineseText": "现在都去瑞川了"
+        },
+        {
+          "timestamp": 21,
+          "chineseText": "这边一天连以前三桌都不到"
+        },
+        {
+          "timestamp": 21,
+          "chineseText": "生意不好是你们自己的问题"
+        },
+        {
+          "timestamp": 21,
+          "chineseText": "以前5点就忙"
+        },
+        {
+          "timestamp": 27,
+          "chineseText": "你让我们拿什么"
+        }
+      ],
+      "frameCount": 10
+    },
+    "recapScript": {
+      "title": "ငှားရမ်းခနှင့် စီးပွားရေးအကျပ်အတည်း",
+      "genre": "ဒရမ်မာ / လူမှုဘဝ",
+      "charactersSummary": [
+        {
+          "name": "ဆိုင်ပိုင်ရှင်",
+          "role": "အခန်းငှားရမ်းသူ",
+          "description": "စီးပွားရေး ကျဆင်းလာမှုကြောင့် အိမ်ငှားခ လျှော့ချပေးရန် တောင်းဆိုနေသူ"
+        },
+        {
+          "name": "မြေပိုင်ရှင် သို့မဟုတ် ငှားရမ်းခကောက်ခံသူ",
+          "role": "ငှားရမ်းခဆိုင်ရာ တာဝန်ရှိသူ",
+          "description": "ဈေးနှုန်းလျှော့ချပေးရန် တောင်းဆိုမှုကို ငြင်းဆန်ပြီး လက်ရှိအခြေအနေကို မသိကျိုးကျွံပြုနေသူ"
+        }
+      ],
+      "synopsis": "စီးပွားရေး အခြေအနေများ ပြောင်းလဲသွားပြီး ကုန်တင်ကားများနှင့် ဖောက်သည်များ အားလုံး ရွေ့ချွန် (瑞川) ဘက်သို့ ပြောင်းရွှေ့သွားကြသောကြောင့် ဒေသခံ ဆိုင်ရှင်များ၏ လုပ်ငန်းများမှာ အကြီးအကျယ် ထိခိုက်လာခဲ့သည်။ ဝင်ငွေမရှိတော့ဘဲ ယခင်အတိုင်း အိမ်ငှားခ ဆက်လက်ပေးဆောင်ရမည့် အကျပ်အတည်းကို ရင်ဆိုင်နေရသော ဆိုင်ပိုင်ရှင်နှင့် ငှားရမ်းခ ညှိနှိုင်းဆွေးနွေးမှုများကို တင်းမာသောလေသံဖြင့် ပုံဖော်ထားသည်။",
+      "narrationSegments": [
+        {
+          "id": 1,
+          "text": "ဒီနေ့ဇာတ်လမ်းလေးမှာတော့ စီးပွားရေးလုပ်ငန်းတွေ ကျဆင်းလာတာနဲ့အမျှ ဖြစ်ပေါ်လာတဲ့ ဆိုင်ခန်းငှားရမ်းခ အငြင်းပွားမှု အကျပ်အတည်းကို တင်ဆက်ပေးသွားမှာ ဖြစ်ပါတယ်။"
+        },
+        {
+          "id": 2,
+          "text": "အရင်တုန်းကဆိုရင် ဒီနေရာဟာ ကုန်တင်ကားတွေ၊ ကုန်ဝယ်သူတွေနဲ့ အလုပ်သမားတွေ ကျက်စားရာဖြစ်ပြီး ဝင်ငွေတွေ အမြဲစည်ကားခဲ့တဲ့ နေရာတစ်ခု ဖြစ်ပါတယ်။"
+        },
+        {
+          "id": 3,
+          "text": "ဒါပေမဲ့ အခုအချိန်မှာတော့ ဖောက်သည်တွေအားလုံးဟာ ရွေ့ချွန်ဘက်ကို အကုန်ပြောင်းသွားကြပါပြီ။"
+        },
+        {
+          "id": 4,
+          "text": "ဒေသခံ ဆိုင်ရှင်တွေဘက်ကတော့ ဝင်ငွေတွေ အလွန်အမင်း ကျဆင်းသွားတဲ့အကြောင်းကို အခုလိုပဲ ရှင်းပြလာကြပါတယ်။"
+        },
+        {
+          "id": 5,
+          "text": "အရင်တုန်းကဆိုရင် မနက် ၅ နာရီကတည်းက လူတွေနဲ့ ရှုပ်ရှုပ်ထွက်နေအောင် အလုပ်များခဲ့ကြရတာပါ။"
+        },
+        {
+          "id": 6,
+          "text": "ဒါပေမဲ့ လက်ရှိအခြေအနေမှာတော့ ည ၇ နာရီထိုးတောင် စားပွဲသုံးဝိုင်းတောင် ပြည့်အောင် မထိုင်ကြတော့ပါဘူး။"
+        },
+        {
+          "id": 7,
+          "text": "ဒီလိုဝင်ငွေ လုံးဝမရှိတော့တဲ့ အခြေအနေမှာ အရင်လိုဈေးနှုန်းအတိုင်း အိမ်ငှားခတွေကို ဘယ်လိုနည်းနဲ့မှ ဆက်ပေးနိုင်စရာ မရှိတော့ဘူးလို့ ဆိုင်ရှင်က တင်ပြပါတယ်။"
+        },
+        {
+          "id": 8,
+          "text": "ဒါပေမဲ့ ငှားရမ်းခကောက်ခံသူဘက်ကတော့ ဒါဟာ သူတို့ရဲ့ပြဿနာသာဖြစ်ပြီး ငှားရမ်းခနဲ့ ဘာမှမဆိုင်ဘူးဆိုပြီး ပယ်ချဖို့ ကြိုးစားပါတယ်။"
+        },
+        {
+          "id": 9,
+          "text": "ဖောက်သည်တွေ အကုန်ပါသွားလို့ တစ်နေ့တာ ဝင်ငွေက ယခင်ကထက် သုံးပုံတစ်ပုံတောင် မရှိတော့ဘူးလို့ ဆိုင်ရှင်က ပြန်လည်ခြေပခဲ့ပါတယ်။"
+        },
+        {
+          "id": 10,
+          "text": "စီးပွားရေး မကောင်းတာဟာ ကိုယ့်ပြဿနာသက်သက် မဟုတ်ဘဲ ဝန်းကျင်အခြေအနေ ပြောင်းလဲသွားလို့ ဖြစ်တယ်ဆိုတာကို သူတို့က အခိုင်အမာ ပြောဆိုနေကြပါတယ်။"
+        },
+        {
+          "id": 11,
+          "text": "ဒီလို အကြပ်အတည်းမျိုးနဲ့ ရင်ဆိုင်နေရတဲ့အခါမှာ ဘယ်လိုဆက်လုပ်ကြမလဲဆိုတာ မေးခွန်းထုတ်စရာ ဖြစ်လာပါတယ်။"
+        },
+        {
+          "id": 12,
+          "text": "လက်ရှိအခြေအနေအရ အိမ်ငှားခကို အနည်းဆုံး ခေတ္တလျှော့ချပေးဖို့နဲ့ အခြေအနေ ပြန်ကောင်းလာတဲ့အထိ စောင့်ဆိုင်းပေးဖို့ တောင်းဆိုလာကြပါတယ်။"
+        },
+        {
+          "id": 13,
+          "text": "အခက်အခဲပေါင်းစုံကြားကနေ ရုန်းကန်နေရတဲ့ ဒီဆိုင်ရှင်တွေရဲ့ ပြဿနာကို ဘယ်လိုဖြေရှင်းကြမလဲဆိုတာ ဆက်လက်စောင့်ကြည့်ရမယ့် အနေအထားမှာ ရှိပါတယ်။"
+        },
+        {
+          "id": 14,
+          "text": "ဒီလို ခက်ခဲတဲ့ စီးပွားရေးကာလကြီးမှာ အငှားချထားသူနဲ့ အိမ်ငှားတို့ကြား ဘယ်လို သဘောတူညီချက်တွေ ရောက်ရှိသွားမလဲဆိုတာ စိတ်ဝင်စားစရာပါပဲ။"
+        }
+      ],
+      "approved": true
+    },
+    "narration": {
+      "audioPath": "/app/applet/uploads/projects/proj_mw8vu0to/narration.mp3",
+      "durationSeconds": 103.08400000000003,
+      "voiceUsed": "my-MM-ThihaNeural"
+    },
+    "subtitles": {
+      "srtPath": "/app/applet/uploads/projects/proj_mw8vu0to/subtitles.srt",
+      "cuesCount": 14
+    }
+  },
+  {
+    "id": "proj_mw8vrmql",
+    "title": "1000303859",
+    "originalFilename": "1000303859.mp4",
+    "fileSize": 4045667,
+    "duration": 15.000063,
+    "videoWidth": 720,
+    "videoHeight": 1280,
+    "createdAt": "2026-11-09T06:28:51.745Z",
+    "updatedAt": "2026-11-09T06:29:32.290Z",
+    "status": "completed",
+    "currentStep": 13,
+    "progress": 100,
+    "currentStepTitle": "ပြီးစီးပါပြီ! အပြီးသတ် MP4 ဗီဒီယိုကို ဒေါင်းလုဒ်လုပ်နိုင်ပါပြီ",
+    "settings": {
+      "recapLength": "medium",
+      "ttsVoice": "my-MM-NilarNeural",
+      "speakingRate": "+0%",
+      "originalAudioVolume": 0.15,
+      "burnSubtitles": true,
+      "fontSize": 18
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-09T06:28:51.745Z",
+        "step": 1,
+        "message": "ဗီဒီယိုဖိုင် \"1000303859.mp4\" (3.9 MB) ကို အောင်မြင်စွာ တင်ပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:28:51.750Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:28:51.875Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက် စစ်ဆေးမှု အောင်မြင်သည်: ကြာချိန် 15 စက္ကန့်၊ ရုပ်ထွက် 720x1280",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:28:51.876Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:28:52.094Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono audio)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:28:52.095Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:28:52.563Z",
+        "step": 4,
+        "message": "တရုတ်စကားပြော အပိုင်း 7 ခုကို မှတ်သားနိုင်ခဲ့ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:28:52.565Z",
+        "step": 5,
+        "message": "စာတန်းနှင့် အရေးကြီးသော အခန်းများကို ဖတ်ရှုရန် ဖရိမ်များ ထုတ်ယူနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:28:53.416Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 5 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:28:53.417Z",
+        "step": 6,
+        "message": "ဗီဒီယိုဖရိမ်များရှိ တရုတ်စာတန်းများကို OCR စနစ်ဖြင့် ဖတ်ရှုစစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:28:57.051Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 4 ခုကို ရှာဖွေတွေ့ရှိပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:28:57.054Z",
+        "step": 8,
+        "message": "တရုတ်စကားပြောနှင့် စာတန်းများကို သုံးသပ်ပြီး ဆွဲဆောင်မှုရှိသော မြန်မာဇာတ်လမ်းအကျဉ်းကို ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:29:00.815Z",
+        "step": 9,
+        "message": "မြန်မာ ဇာတ်ကြောင်းပြောစာသား အပိုင်း 5 ခု ရေးသားပြီးပါပြီ။ အတည်ပြုရန် စောင့်ဆိုင်းနေပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:29:04.995Z",
+        "step": 9,
+        "message": "အသုံးပြုသူမှ ဇာတ်ကြောင်းပြော စာသားကို တည်းဖြတ်ပြင်ဆင်ခဲ့သည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:29:05.150Z",
+        "step": 9,
+        "message": "ဇာတ်ကြောင်းပြောစာသားကို အတည်ပြုပြီး အသံထွက်ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:29:05.154Z",
+        "step": 10,
+        "message": "Burmese Neural Voice (my-MM-NilarNeural) ဖြင့် အသံဖိုင် ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:29:16.882Z",
+        "step": 11,
+        "message": "မြန်မာ အသံဖိုင် (75s) နှင့် အချိန်ကိုက် SRT စာတန်း 5 ခု အောင်မြင်စွာ ဖန်တီးပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:29:16.883Z",
+        "step": 12,
+        "message": "မူရင်းဗီဒီယိုနှင့် မြန်မာအသံထွက်ကို ပေါင်းစပ်ပြီး Noto Sans Myanmar ဖောင့်ဖြင့် စာတန်းထိုးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:29:32.293Z",
+        "step": 13,
+        "message": "မြန်မာ ရုပ်ရှင်ပြန်ပြောပြချက် ဗီဒီယို ထုတ်လုပ်မှု အောင်မြင်စွာ ပြီးဆုံးပါပြီ!",
+        "type": "success"
+      }
+    ],
+    "error": null,
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 2.2,
+          "text": "他走他的"
+        },
+        {
+          "id": 2,
+          "start": 2.2,
+          "end": 4.42,
+          "text": "跟你们租金有什么关系"
+        },
+        {
+          "id": 3,
+          "start": 4.42,
+          "end": 6.04,
+          "text": "怎么没关系"
+        },
+        {
+          "id": 4,
+          "start": 6.04,
+          "end": 8.42,
+          "text": "以前那么多货车司机"
+        },
+        {
+          "id": 5,
+          "start": 8.42,
+          "end": 9.54,
+          "text": "采购商装卸工"
+        },
+        {
+          "id": 6,
+          "start": 9.54,
+          "end": 10.84,
+          "text": "他们全在这消费"
+        },
+        {
+          "id": 7,
+          "start": 10.84,
+          "end": 15,
+          "text": "现在都去瑞川了"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [
+        {
+          "timestamp": 0,
+          "chineseText": "他走他的"
+        },
+        {
+          "timestamp": 9,
+          "chineseText": "以前那么多货车"
+        },
+        {
+          "timestamp": 9,
+          "chineseText": "他们全在这消费"
+        },
+        {
+          "timestamp": 12,
+          "chineseText": "现在都去瑞川了"
+        }
+      ],
+      "frameCount": 5
+    },
+    "recapScript": {
+      "title": "စီးပွားရေး အကျပ်အတည်းနှင့် ငှားရမ်းခ ပြဿနာ",
+      "genre": "ဒရမ်မာ",
+      "charactersSummary": [
+        {
+          "name": "ငှားရမ်းသူ",
+          "role": "အခန်းငှားရမ်းသူ",
+          "description": "လုပ်ငန်းရှင်များ၏ ငှားရမ်းခပေးဆောင်မှုနှင့် ပတ်သက်ပြီး စိုးရိမ်ပူပန်နေသူ။"
+        },
+        {
+          "name": "လုပ်ငန်းရှင်",
+          "role": "ဒေသခံလုပ်ငန်းရှင်",
+          "description": "ဈေးကွက်ပြောင်းလဲမှုကြောင့် စီးပွားရေးထိခိုက်လာမှုကို ရှင်းပြနေသူ။"
+        }
+      ],
+      "synopsis": "စီးပွားရေးဈေးကွက် အပြောင်းအလဲတစ်ခုကြောင့် ဒေသခံလုပ်ငန်းများအပေါ် သက်ရောက်လာပုံနှင့် ငှားရမ်းခ ပြဿနာများအကြောင်းကို တင်ပြထားခြင်း ဖြစ်သည်။ ရှေးယခင်က ကုန်တင်ကားသမားများ၊ ဝယ်ယူသူများနှင့် အလုပ်သမားများဖြင့် စည်ကားခဲ့သော်လည်း ယခုအခါ အားလုံးမှာ ရွေ့ပြောင်းသွားကြပြီဖြစ်သည်။",
+      "narrationSegments": [
+        {
+          "id": 1,
+          "text": "ဒီနေ့ဇာတ်လမ်းလေးမှာတော့ စီးပွားရေးလုပ်ငန်းရှင်တွေနဲ့ ငှားရမ်းခ ပတ်သက်ပြီး အခြေအတင် ပြောဆိုနေကြတဲ့ အခြေအနေကို စတင်တွေ့မြင်ကြရမှာ ဖြစ်ပါတယ်။ သူတို့ရဲ့ ပြောဆိုချက်တွေဟာ လက်ရှိကြုံတွေ့နေရတဲ့ စီးပွားရေး အကျပ်အတည်းကို ထင်ဟပ်နေပါတယ်။"
+        },
+        {
+          "id": 2,
+          "text": "သူသွားချင်တဲ့လမ်းသူသွားနေတာပဲလေလို့ တစ်ဖက်လူက ပြောဆိုလာတဲ့အခါမှာတော့ ငှားရမ်းခနဲ့ ဘယ်လိုမှ မသက်ဆိုင်ဘူးလို့ ယူဆစရာ ရှိပါတယ်။ ဒါပေမဲ့ လက်တွေ့အခြေအနေကတော့ သူတို့ထင်ထားတာထက် ပိုပြီး ရှုပ်ထွေးနက်နဲနေပါတယ်။"
+        },
+        {
+          "id": 3,
+          "text": "ဒါနဲ့ပတ်သက်ပြီး ဘာကြောင့် ဆက်စပ်နေရတာလဲဆိုတာကို အကျယ်တဝင့် ရှင်းပြလာခဲ့ပါတယ်။ အရင်တုန်းက ဒီနေရာမှာ ကုန်တင်ကားသမားတွေ၊ ပစ္စည်းဝယ်ယူသူတွေနဲ့ အလုပ်သမားတွေ အများကြီး ရှိခဲ့ဖူးပါတယ်။"
+        },
+        {
+          "id": 4,
+          "text": "အဲဒီလူတွေအားလုံးဟာ ဒီနေရာမှာပဲ နေ့စဉ်သုံးစွဲမှုတွေ ပြုလုပ်ကြပြီး စီးပွားရေးကို လည်ပတ်စေခဲ့ကြတာ ဖြစ်ပါတယ်။ ဒါပေမဲ့ အခုချိန်မှာတော့ အခြေအနေတွေ အလုံးစုံ ပြောင်းလဲသွားခဲ့ပါပြီ။"
+        },
+        {
+          "id": 5,
+          "text": "ဇာတ်လမ်းရဲ့ အဆုံးသတ်မှာတော့ လူတွေအားလုံးဟာ ရွေ့ချန်ကို ပြောင်းသွားကြပြီဖြစ်ကြောင်း ဖော်ပြထားပါတယ်။ ဒီလို ဖောက်သည်တွေနဲ့ လူအင်အား လက်လွတ်လိုက်ရတဲ့အတွက် လက်ရှိလုပ်ငန်းတွေနဲ့ ငှားရမ်းခပေးချေမှုတွေအပေါ် ကြီးမားတဲ့ သက်ရောက်မှုတွေ ဖြစ်ပေါ်လာပါတော့တယ်။"
+        }
+      ],
+      "approved": true
+    },
+    "narration": {
+      "audioPath": "/app/applet/uploads/projects/proj_mw8vrmql/narration.mp3",
+      "durationSeconds": 75.196,
+      "voiceUsed": "my-MM-NilarNeural"
+    },
+    "subtitles": {
+      "srtPath": "/app/applet/uploads/projects/proj_mw8vrmql/subtitles.srt",
+      "cuesCount": 5
+    },
+    "export": {
+      "videoPath": "/app/applet/uploads/projects/proj_mw8vrmql/final_recap.mp4",
+      "srtPath": "/app/applet/uploads/projects/proj_mw8vrmql/subtitles.srt",
+      "scriptPath": "/app/applet/uploads/projects/proj_mw8vrmql/recap_script.txt",
+      "renderedAt": "2026-11-09T06:29:32.289Z"
+    }
+  },
+  {
+    "id": "proj_mw8vl9te",
+    "title": "1000303833",
+    "originalFilename": "1000303833.mp4",
+    "fileSize": 16167842,
+    "duration": 30.011135,
+    "videoWidth": 1080,
+    "videoHeight": 1920,
+    "createdAt": "2026-11-09T06:23:55.143Z",
+    "updatedAt": "2026-11-09T06:29:55.365Z",
+    "status": "completed",
+    "currentStep": 13,
+    "progress": 100,
+    "currentStepTitle": "ပြီးစီးပါပြီ! အပြီးသတ် MP4 ဗီဒီယိုကို ဒေါင်းလုဒ်လုပ်နိုင်ပါပြီ",
+    "settings": {
+      "recapLength": "long",
+      "ttsVoice": "my-MM-ThihaNeural",
+      "speakingRate": "+10%",
+      "originalAudioVolume": 0,
+      "burnSubtitles": true,
+      "fontSize": 18
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-09T06:23:55.143Z",
+        "step": 1,
+        "message": "ဗီဒီယိုဖိုင် \"1000303833.mp4\" (15.4 MB) ကို အောင်မြင်စွာ တင်ပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:23:55.147Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:23:55.319Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက် စစ်ဆေးမှု အောင်မြင်သည်: ကြာချိန် 30 စက္ကန့်၊ ရုပ်ထွက် 1080x1920",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:23:55.320Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:23:55.665Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono audio)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:23:55.666Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:23:56.375Z",
+        "step": 4,
+        "message": "တရုတ်စကားပြော အပိုင်း 17 ခုကို မှတ်သားနိုင်ခဲ့ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:23:56.376Z",
+        "step": 5,
+        "message": "စာတန်းနှင့် အရေးကြီးသော အခန်းများကို ဖတ်ရှုရန် ဖရိမ်များ ထုတ်ယူနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:23:58.655Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 10 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:23:58.657Z",
+        "step": 6,
+        "message": "ဗီဒီယိုဖရိမ်များရှိ တရုတ်စာတန်းများကို OCR စနစ်ဖြင့် ဖတ်ရှုစစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:24:28.259Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 8 ခုကို ရှာဖွေတွေ့ရှိပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:24:28.260Z",
+        "step": 8,
+        "message": "တရုတ်စကားပြောနှင့် စာတန်းများကို သုံးသပ်ပြီး ဆွဲဆောင်မှုရှိသော မြန်မာဇာတ်လမ်းအကျဉ်းကို ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:24:36.009Z",
+        "step": 9,
+        "message": "မြန်မာ ဇာတ်ကြောင်းပြောစာသား အပိုင်း 12 ခု ရေးသားပြီးပါပြီ။ အတည်ပြုရန် စောင့်ဆိုင်းနေပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:24:37.858Z",
+        "step": 9,
+        "message": "အသုံးပြုသူမှ ဇာတ်ကြောင်းပြော စာသားကို တည်းဖြတ်ပြင်ဆင်ခဲ့သည်",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:24:37.990Z",
+        "step": 9,
+        "message": "ဇာတ်ကြောင်းပြောစာသားကို အတည်ပြုပြီး အသံထွက်ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:24:37.993Z",
+        "step": 10,
+        "message": "Burmese Neural Voice (my-MM-ThihaNeural) ဖြင့် အသံဖိုင် ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:24:38.170Z",
+        "step": 12,
+        "message": "ချွတ်ယွင်းချက်: Burmese TTS Error on segment 1: Unexpected server response: 429",
+        "type": "error"
+      },
+      {
+        "timestamp": "2026-11-09T06:25:03.652Z",
+        "step": 10,
+        "message": "Burmese Neural Voice (my-MM-ThihaNeural) ဖြင့် အသံဖိုင် ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:25:04.614Z",
+        "step": 12,
+        "message": "ချွတ်ယွင်းချက်: Burmese TTS Error on segment 2: Unexpected server response: 429",
+        "type": "error"
+      },
+      {
+        "timestamp": "2026-11-09T06:25:07.972Z",
+        "step": 10,
+        "message": "Burmese Neural Voice (my-MM-ThihaNeural) ဖြင့် အသံဖိုင် ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:25:13.095Z",
+        "step": 12,
+        "message": "ချွတ်ယွင်းချက်: Burmese TTS Error on segment 8: Unexpected server response: 429",
+        "type": "error"
+      },
+      {
+        "timestamp": "2026-11-09T06:29:04.565Z",
+        "step": 10,
+        "message": "Burmese Neural Voice (my-MM-ThihaNeural) ဖြင့် အသံဖိုင် ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:29:23.297Z",
+        "step": 11,
+        "message": "မြန်မာ အသံဖိုင် (83s) နှင့် အချိန်ကိုက် SRT စာတန်း 12 ခု အောင်မြင်စွာ ဖန်တီးပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-09T06:29:23.298Z",
+        "step": 12,
+        "message": "မူရင်းဗီဒီယိုနှင့် မြန်မာအသံထွက်ကို ပေါင်းစပ်ပြီး Noto Sans Myanmar ဖောင့်ဖြင့် စာတန်းထိုးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-09T06:29:55.366Z",
+        "step": 13,
+        "message": "မြန်မာ ရုပ်ရှင်ပြန်ပြောပြချက် ဗီဒီယို ထုတ်လုပ်မှု အောင်မြင်စွာ ပြီးဆုံးပါပြီ!",
+        "type": "success"
+      }
+    ],
+    "error": null,
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 2.2,
+          "text": "他走他的"
+        },
+        {
+          "id": 2,
+          "start": 2.2,
+          "end": 4.42,
+          "text": "跟你们租金有什么关系"
+        },
+        {
+          "id": 3,
+          "start": 4.42,
+          "end": 6.04,
+          "text": "怎么没关系"
+        },
+        {
+          "id": 4,
+          "start": 6.04,
+          "end": 8.42,
+          "text": "以前那么多货车司机"
+        },
+        {
+          "id": 5,
+          "start": 8.42,
+          "end": 9.54,
+          "text": "采购商装卸工"
+        },
+        {
+          "id": 6,
+          "start": 9.54,
+          "end": 10.84,
+          "text": "他们全在这消费"
+        },
+        {
+          "id": 7,
+          "start": 10.84,
+          "end": 14.74,
+          "text": "现在都去瑞川了"
+        },
+        {
+          "id": 8,
+          "start": 14.74,
+          "end": 17.16,
+          "text": "这边一天"
+        },
+        {
+          "id": 9,
+          "start": 17.16,
+          "end": 18.22,
+          "text": "连以前三中都不到"
+        },
+        {
+          "id": 10,
+          "start": 18.22,
+          "end": 20.22,
+          "text": "生意不好是你们自己的问题"
+        },
+        {
+          "id": 11,
+          "start": 20.22,
+          "end": 21.66,
+          "text": "怎么成我们自己的问题"
+        },
+        {
+          "id": 12,
+          "start": 21.66,
+          "end": 23.18,
+          "text": "以前五点就忙"
+        },
+        {
+          "id": 13,
+          "start": 23.18,
+          "end": 24.68,
+          "text": "现在七点坐不满三桌"
+        },
+        {
+          "id": 14,
+          "start": 24.68,
+          "end": 26.48,
+          "text": "你让我们拿什么交原来的租金"
+        },
+        {
+          "id": 15,
+          "start": 26.48,
+          "end": 28.3,
+          "text": "那你想怎么样"
+        },
+        {
+          "id": 16,
+          "start": 28.3,
+          "end": 29.32,
+          "text": "先降一点"
+        },
+        {
+          "id": 17,
+          "start": 29.32,
+          "end": 30.02,
+          "text": "等重新"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [
+        {
+          "timestamp": 0,
+          "chineseText": "他走他的"
+        },
+        {
+          "timestamp": 3,
+          "chineseText": "以前那么多货车"
+        },
+        {
+          "timestamp": 6,
+          "chineseText": "他们全在这消费"
+        },
+        {
+          "timestamp": 21,
+          "chineseText": "现在都去瑞川了"
+        },
+        {
+          "timestamp": 21,
+          "chineseText": "这边一天连以前三桌都不到"
+        },
+        {
+          "timestamp": 21,
+          "chineseText": "生意不好是你们自己的问题"
+        },
+        {
+          "timestamp": 21,
+          "chineseText": "以前5点就忙"
+        },
+        {
+          "timestamp": 27,
+          "chineseText": "你让我们拿什么"
+        }
+      ],
+      "frameCount": 10
+    },
+    "recapScript": {
+      "title": "စီးပွားရေး အကျပ်အတည်းနှင့် ငှားရမ်းခ ပြဿနာ",
+      "genre": "ဒရမ်မာ",
+      "charactersSummary": [
+        {
+          "name": "ဆိုင်ပိုင်ရှင်",
+          "role": "ငှားရမ်းသူ",
+          "description": "လုပ်ငန်းများ ရပ်တန့်လာသဖြင့် ဆိုင်ခန်းခ လျှော့ချပေးရန် တောင်းဆိုနေသူ"
+        },
+        {
+          "name": "အခွန်ကောက်ခံသူ",
+          "role": "ပိုင်ရှင် သို့မဟုတ် မန်နေဂျာ",
+          "description": "မူလငှားရမ်းခကို တောင်းခံနေ고 လက်ရှိပြဿနာကို ဖြေရှင်းရန် ကြိုးစားနေသူ"
+        }
+      ],
+      "synopsis": "ကုန်တင်ကားများနှင့် ဝယ်လက်များ အခြားဒေသသို့ ပြောင်းရွှေ့သွားကြခြင်းကြောင့် ဒေသခံစီးပွားရေးလုပ်ငန်းများ ထိခိုက်လာ고 ဆိုင်ခန်းခများ ပေးဆောင်နိုင်ရန် ခက်ခဲလာကြပုံကို တင်းမာသော ဆွေးနွေးပြောဆိုမှုများနှင့်အတူ ပုံဖော်ထားသည်။",
+      "narrationSegments": [
+        {
+          "id": 1,
+          "text": "ဒီနေ့ဇာတ်လမ်းမှာတော့ စီးပွားရေးကျဆင်းမှုဒဏ်ကို ခါးစီးပြီး ရင်ဆိုင်နေရတဲ့ ဆိုင်ပိုင်ရှင်တွေနဲ့ အိမ်ရှင်တို့ကြားက ပြဿနာကို တင်ဆက်ပေးသွားမှာ ဖြစ်ပါတယ်။"
+        },
+        {
+          "id": 2,
+          "text": "လုပ်ငန်းတွေ အဆင်မပြေတော့တဲ့အတွက် ဆိုင်ရှင်က အိမ်ရှင်ကို ငှားရမ်းခတွေ လျှော့ချပေးဖို့ လာရောက်ဆွေးနွေးနေပါတယ်။"
+        },
+        {
+          "id": 3,
+          "text": "ဒါပေမဲ့ အိမ်ရှင်ဘက်ကတော့ ဒါဟာ သူတို့နဲ့ မဆိုင်ဘဲ ဆိုင်ရှင်တွေရဲ့ ကိုယ်ပိုင်ပြဿနာသာ ဖြစ်တယ်လို့ တုံ့ပြန်ပြောဆိုခဲ့ပါတယ်။"
+        },
+        {
+          "id": 4,
+          "text": "အရင်တုန်းကဆိုရင် ကုန်တင်ကားတွေ၊ ဝယ်လက်တွေနဲ့ အလုပ်သမားတွေဟာ ဒီနေရာမှာပဲ အမြဲလိုလို လာရောက်စားသုံးခဲ့ကြတာ ဖြစ်ပါတယ်။"
+        },
+        {
+          "id": 5,
+          "text": "ဒါပေမဲ့ လက်ရှိအချိန်မှာတော့ အဲဒီလူတွေ အားလုံးဟာ ရွေချွန်ဘက်ကို ပြောင်းရွှေ့ကုန်ကြပြီ ဖြစ်ပါတယ်။"
+        },
+        {
+          "id": 6,
+          "text": "အဲဒီအတွက်ကြောင့် ဒီဘက်က စီးပွားရေးလုပ်ငန်းတွေဟာ တစတစ ကျဆင်းလာခဲ့ရတာပါ။"
+        },
+        {
+          "id": 7,
+          "text": "ဆိုင်ရှင်က လက်ရှိဝင်ငွေဟာ အရင်ကနဲ့ယှဉ်ရင် သုံးပုံတစ်ပုံတောင် မရှိတော့ဘူးလို့ ခါးသီးစွာ ရှင်းပြနေပါတယ်။"
+        },
+        {
+          "id": 8,
+          "text": "အရင်တုန်းကဆိုရင် နံနက် ၅ နာရီကတည်းက လူတွေနဲ့ စည်ကားနေပေမဲ့ အခုတော့ ည ၇ နာရီထိုးတောင် စားပွဲသုံးဝိုင်းပြည့်ဖို့တောင် ခက်ခဲနေပါပြီ။"
+        },
+        {
+          "id": 9,
+          "text": "ဒီလိုအခြေအနေမျိုးမှာ မူလသတ်မှတ်ထားတဲ့ ငှားရမ်းခတွေကို ဘယ်လိုနည်းနဲ့မှ ဆက်ပေးဖို့ မဖြစ်နိုင်တော့ဘူးလို့ သူက ညည်းညူပါတယ်။"
+        },
+        {
+          "id": 10,
+          "text": "အခွန်ကောက်ခံသူ သို့မဟုတ် မန်နေဂျာဘက်ကလည်း ဒါဆိုရင် ဘယ်လိုလုပ်ချင်လဲဆိုပြီး ပြန်လည်မေးခွန်းထုတ်လာပါတယ်။"
+        },
+        {
+          "id": 11,
+          "text": "နောက်ဆုံးမှာတော့ ဆိုင်ရှင်က အခြေအနေတွေ ပြန်ကောင်းလာတဲ့အထိ ငှားရမ်းခကို အရင်ဆုံး အနည်းငယ် လျှော့ချပေးဖို့ တောင်းဆိုလိုက်ပါတယ်။"
+        },
+        {
+          "id": 12,
+          "text": "ဒီလို စီးပွားရေးအကျပ်အတည်း ကြုံတွေ့နေရချိန်မှာ နှစ်ဦးနှစ်ဖက် ဘယ်လိုညှိနှိုင်းဖြေရှင်းကြမလဲဆိုတာ ဆက်လက်ကြည့်ရှုရမှာ ဖြစ်ပါတယ်။"
+        }
+      ],
+      "approved": true
+    },
+    "narration": {
+      "audioPath": "/app/applet/uploads/projects/proj_mw8vl9te/narration.mp3",
+      "durationSeconds": 82.77200000000002,
+      "voiceUsed": "my-MM-ThihaNeural"
+    },
+    "subtitles": {
+      "srtPath": "/app/applet/uploads/projects/proj_mw8vl9te/subtitles.srt",
+      "cuesCount": 12
+    },
+    "export": {
+      "videoPath": "/app/applet/uploads/projects/proj_mw8vl9te/final_recap.mp4",
+      "srtPath": "/app/applet/uploads/projects/proj_mw8vl9te/subtitles.srt",
+      "scriptPath": "/app/applet/uploads/projects/proj_mw8vl9te/recap_script.txt",
+      "renderedAt": "2026-11-09T06:29:55.364Z"
+    }
+  },
+  {
+    "id": "demo_mw76upk3",
+    "title": "နမူနာ တရုတ်ရုပ်ရှင် ဇာတ်လမ်းတို (Demo Clip)",
+    "originalFilename": "chinese_action_sample.mp4",
+    "fileSize": 158944,
+    "duration": 8,
+    "videoWidth": 1280,
+    "videoHeight": 720,
+    "createdAt": "2026-11-08T02:03:40.883Z",
+    "updatedAt": "2026-11-13T14:27:24.351Z",
+    "status": "failed",
+    "currentStep": 10,
+    "progress": 80,
+    "currentStepTitle": "ဆာဗာ ရပ်တန့်မှုကြောင့် ပြန်လည်စတင်ရန် လိုအပ်ပါသည် (Retry Ready)",
+    "settings": {
+      "recapLength": "short",
+      "ttsVoice": "my-MM-NilarNeural",
+      "speakingRate": "+0%",
+      "originalAudioVolume": 0.15,
+      "burnSubtitles": true,
+      "fontSize": 18
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-08T02:03:40.884Z",
+        "step": 1,
+        "message": "နမူနာ ဗီဒီယိုဖိုင် အဆင်သင့် ဖန်တီးပြီးပါပြီ။",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:03:40.886Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:03:40.999Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက် စစ်ဆေးမှု အောင်မြင်သည်: ကြာချိန် 8 စက္ကန့်၊ ရုပ်ထွက် 1280x720",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-08T02:03:40.999Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:03:41.174Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono audio)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-08T02:03:41.175Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:03:41.519Z",
+        "step": 4,
+        "message": "တရုတ်စကားပြော အပိုင်း 1 ခုကို မှတ်သားနိုင်ခဲ့ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-08T02:03:41.520Z",
+        "step": 5,
+        "message": "စာတန်းနှင့် အရေးကြီးသော အခန်းများကို ဖတ်ရှုရန် ဖရိမ်များ ထုတ်ယူနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:03:41.826Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 3 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-08T02:03:41.827Z",
+        "step": 6,
+        "message": "ဗီဒီယိုဖရိမ်များရှိ တရုတ်စာတန်းများကို OCR စနစ်ဖြင့် ဖတ်ရှုစစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:03:56.833Z",
+        "step": 6,
+        "message": "မျက်နှာပြင် စာတန်း/စာသား 1 ခုကို ရှာဖွေတွေ့ရှိပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-08T02:03:56.834Z",
+        "step": 8,
+        "message": "တရုတ်စကားပြောနှင့် စာတန်းများကို သုံးသပ်ပြီး ဆွဲဆောင်မှုရှိသော မြန်မာဇာတ်လမ်းအကျဉ်းကို ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:03:58.721Z",
+        "step": 1,
+        "message": "ချွတ်ယွင်းချက်: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+        "type": "error"
+      },
+      {
+        "timestamp": "2026-11-08T02:04:25.006Z",
+        "step": 8,
+        "message": "တရုတ်စကားပြောနှင့် စာတန်းများကို သုံးသပ်ပြီး ဆွဲဆောင်မှုရှိသော မြန်မာဇာတ်လမ်းအကျဉ်းကို ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:05:06.418Z",
+        "step": 9,
+        "message": "ဇာတ်ကြောင်းပြောစာသားကို အတည်ပြုပြီး အသံထွက်ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-08T02:05:23.453Z",
+        "step": 9,
+        "message": "မြန်မာ ဇာတ်ကြောင်းပြောစာသား အပိုင်း 4 ခု ရေးသားပြီးပါပြီ။ အတည်ပြုရန် စောင့်ဆိုင်းနေပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-08T02:06:28.481Z",
+        "step": 9,
+        "message": "ဇာတ်ကြောင်းပြောစာသားကို အတည်ပြုပြီး အသံထွက်ဖန်တီးမှု စတင်ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-08T02:06:28.482Z",
+        "step": 10,
+        "message": "Burmese Neural Voice (my-MM-NilarNeural) ဖြင့် အသံဖိုင် ဖန်တီးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:27:24.351Z",
+        "step": 10,
+        "message": "Server restarted mid-job; marked ready for Retry.",
+        "type": "warn"
+      }
+    ],
+    "error": "ဆာဗာ ပြန်လည်စတင်ချိန်တွင် လုပ်ငန်းစဉ် ရပ်တန့်သွားပါသည် — Retry ခလုတ်ကို နှိပ်၍ ဆက်လက်လုပ်ဆောင်နိုင်ပါသည်",
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 8,
+          "text": "-"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    },
+    "ocr": {
+      "detections": [
+        {
+          "timestamp": 1,
+          "chineseText": "【全剧终/序幕】"
+        }
+      ],
+      "frameCount": 3
+    },
+    "recapScript": {
+      "title": "အဆုံးသတ်မှ အစပြုခြင်း",
+      "genre": "ဒရမ်မာ / လျှို့ဝှက်ဆန်းကြယ်",
+      "charactersSummary": [
+        {
+          "name": "ဇာတ်ဆောင်",
+          "role": "အဓိကဇာတ်ကောင်",
+          "description": "ဘဝ၏ အဆုံးအဖြတ်အခိုက်အတန့်တွင် အတိတ်နှင့် အနာဂတ်ကြား ရုန်းကန်နေရသူ"
+        }
+      ],
+      "synopsis": "ဇာတ်လမ်းတစ်ပုဒ်၏ အဆုံးသတ်သည် အမှန်တကယ်တွင် အရာအားလုံး၏ အစပျိုးခြင်းဖြစ်လာသောအခါ ကံကြမ္မာ၏ လျှို့ဝှက်ဆန်းကြယ်မှုများ စတင်ပေါ်ပေါက်လာရပုံကို တင်ဆက်ထားသည့် ဇာတ်လမ်းတို ဖြစ်ပါသည်။",
+      "narrationSegments": [
+        {
+          "id": 1,
+          "text": "လူတိုင်းက ဇာတ်သိမ်းပိုင်းဆိုတာ အဆုံးသတ်လို့ ထင်တတ်ကြပေမဲ့ တချို့သော ဇာတ်လမ်းတွေမှာတော့ ဒါဟာ အသစ်တစ်ဖန် ပြန်လည်စတင်ခြင်းရဲ့ အစပျိုးမှုတစ်ခုသာ ဖြစ်နေတတ်ပါတယ်။"
+        },
+        {
+          "id": 2,
+          "text": "မျက်နှာပြင်ပေါ်မှာ ဇာတ်သိမ်းဆိုတဲ့ စာတန်းထိုးပေါ်လာချိန်မှာပဲ မထင်မှတ်ထားတဲ့ လျှို့ဝှက်ချက်တွေနဲ့ ဇာတ်လမ်းရဲ့ အစဦးပိုင်း အဖြစ်အပျက်တွေက ပြန်လည်အသက်ဝင်လာခဲ့ပါတယ်။"
+        },
+        {
+          "id": 3,
+          "text": "အတိတ်က ကျူးလွန်ခဲ့တဲ့ အမှားတွေနဲ့ မပြီးပြတ်သေးတဲ့ ကံကြမ္မာရဲ့ ချည်နှောင်မှုတွေဟာ ဇာတ်ကောင်တွေကို နောက်ထပ် စိန်ခေါ်မှုအသစ်တစ်ခုဆီ တွန်းပို့လိုက်ပါတော့တယ်။"
+        },
+        {
+          "id": 4,
+          "text": "ဒီလိုနဲ့ အဆုံးသတ်ရဲ့ နောက်ကွယ်က အစပျိုးခြင်းဟာ ဘယ်လို အလှည့်အပြောင်းတွေ ဆက်လက်ဖြစ်ပေါ်စေမလဲဆိုတာ ရင်ခုန်စိတ်လှုပ်ရှားစွာ စောင့်ကြည့်ရတော့မှာ ဖြစ်ပါတယ်။"
+        }
+      ],
+      "approved": true
+    }
+  },
+  {
+    "id": "demo_mw76qa1r",
+    "title": "နမူနာ တရုတ်ရုပ်ရှင် ဇာတ်လမ်းတို (Demo Clip)",
+    "originalFilename": "chinese_action_sample.mp4",
+    "fileSize": 158944,
+    "duration": 8,
+    "videoWidth": 1280,
+    "videoHeight": 720,
+    "createdAt": "2026-11-08T02:00:14.325Z",
+    "updatedAt": "2026-11-13T14:27:24.351Z",
+    "status": "failed",
+    "currentStep": 6,
+    "progress": 55,
+    "currentStepTitle": "ဆာဗာ ရပ်တန့်မှုကြောင့် ပြန်လည်စတင်ရန် လိုအပ်ပါသည် (Retry Ready)",
+    "settings": {
+      "recapLength": "short",
+      "ttsVoice": "my-MM-NilarNeural",
+      "speakingRate": "+0%",
+      "originalAudioVolume": 0.15,
+      "burnSubtitles": true,
+      "fontSize": 18
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-08T02:00:14.325Z",
+        "step": 1,
+        "message": "နမူနာ ဗီဒီယိုဖိုင် အဆင်သင့် ဖန်တီးပြီးပါပြီ။",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:00:14.327Z",
+        "step": 2,
+        "message": "ဗီဒီယို ဖိုင်ကို FFprobe ဖြင့် စစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:00:14.543Z",
+        "step": 2,
+        "message": "ဗီဒီယို အချက်အလက် စစ်ဆေးမှု အောင်မြင်သည်: ကြာချိန် 8 စက္ကန့်၊ ရုပ်ထွက် 1280x720",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-08T02:00:14.544Z",
+        "step": 3,
+        "message": "ဗီဒီယိုမှ တရုတ်စကားပြော အသံလမ်းကြောင်းကို ခွဲထုတ်နေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:00:14.776Z",
+        "step": 3,
+        "message": "အသံလမ်းကြောင်း ခွဲထုတ်ခြင်း အောင်မြင်ပါသည် (16kHz mono audio)",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-08T02:00:14.776Z",
+        "step": 4,
+        "message": "တရုတ်ဘာသာစကား စကားပြောများကို Whisper Large V3 ဖြင့် နားထောင်မှတ်သားနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:00:15.125Z",
+        "step": 4,
+        "message": "တရုတ်စကားပြော အပိုင်း 1 ခုကို မှတ်သားနိုင်ခဲ့ပါသည်",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-08T02:00:15.125Z",
+        "step": 5,
+        "message": "စာတန်းနှင့် အရေးကြီးသော အခန်းများကို ဖတ်ရှုရန် ဖရိမ်များ ထုတ်ယူနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:00:15.544Z",
+        "step": 5,
+        "message": "ဖရိမ် စုစုပေါင်း 3 ခု ထုတ်ယူပြီးပါပြီ",
+        "type": "success"
+      },
+      {
+        "timestamp": "2026-11-08T02:00:15.544Z",
+        "step": 6,
+        "message": "ဗီဒီယိုဖရိမ်များရှိ တရုတ်စာတန်းများကို OCR စနစ်ဖြင့် ဖတ်ရှုစစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-08T02:02:17.010Z",
+        "step": 6,
+        "message": "ဗီဒီယိုဖရိမ်များရှိ တရုတ်စာတန်းများကို OCR စနစ်ဖြင့် ဖတ်ရှုစစ်ဆေးနေပါသည်...",
+        "type": "info"
+      },
+      {
+        "timestamp": "2026-11-13T14:27:24.351Z",
+        "step": 6,
+        "message": "Server restarted mid-job; marked ready for Retry.",
+        "type": "warn"
+      }
+    ],
+    "error": "ဆာဗာ ပြန်လည်စတင်ချိန်တွင် လုပ်ငန်းစဉ် ရပ်တန့်သွားပါသည် — Retry ခလုတ်ကို နှိပ်၍ ဆက်လက်လုပ်ဆောင်နိုင်ပါသည်",
+    "transcription": {
+      "segments": [
+        {
+          "id": 1,
+          "start": 0,
+          "end": 8,
+          "text": "-"
+        }
+      ],
+      "language": "zh",
+      "provider": "groq"
+    }
+  }
+]

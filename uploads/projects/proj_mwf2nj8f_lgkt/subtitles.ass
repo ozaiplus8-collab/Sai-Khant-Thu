@@ -1,0 +1,15 @@
+[Script Info]
+Title: Burmese Movie Recap Subtitles
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans Myanmar,27,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,1,0,0,0,100,100,0,0,3,6,0,2,60,60,72,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:08.10,Default,,0,0,0,,သုံးနှစ်ဆိုတဲ့ အချိန်ကာလတစ်ခု ကုန်ဆုံးသွားခဲ့ပြီ။ နောက်ဆုံးတော့ သူ ပြန်လာခဲ့ပါပြီ။\Nဒီမြို့တော်ကြီးတစ်ခုလုံးက သူ့ရဲ့ ပြန်လာမှုကို တမ်းတတမ်းတနဲ့ စောင့်မျှော်နေခဲ့တာပါ။
+Dialogue: 0,0:00:08.34,0:00:17.84,Default,,0,0,0,,ဒါပေမဲ့ ပြန်လာတာနဲ့တင် အရာအားလုံး ပြီးဆုံးသွားတာ မဟုတ်ပါဘူး။ မြို့တော်ရဲ့ လုံခြုံရေးနဲ့ ပြည်သူလူထုရဲ့\Nအသက်အိုးအိမ်စည်းစိမ်ကို ကာကွယ်ဖို့အတွက် ကျွန်တော်တို့ ဒီနေ့ပဲ အတူလက်တွဲပြီး တိုက်ပွဲဝင်ကြရတော့မှာ ဖြစ်ပါတယ်။

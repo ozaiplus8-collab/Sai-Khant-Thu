@@ -1,0 +1,4 @@
+file '/app/applet/uploads/projects/demo_mwf1or8o/narration_segments/seg_001_125.mp3'
+file '/app/applet/uploads/projects/demo_mwf1or8o/narration_segments/seg_002_125.mp3'
+file '/app/applet/uploads/projects/demo_mwf1or8o/narration_segments/seg_003_125.mp3'
+file '/app/applet/uploads/projects/demo_mwf1or8o/narration_segments/seg_004_125.mp3'

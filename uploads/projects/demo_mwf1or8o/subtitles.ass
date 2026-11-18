@@ -1,0 +1,17 @@
+[Script Info]
+Title: Burmese Movie Recap Subtitles
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans Myanmar,27,&H00FFFFFF,&H000000FF,&H00000000,&H4D000000,1,0,0,0,100,100,0,0,3,6,0,2,60,60,72,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:07.10,Default,,0,0,0,,{\an5\pos(640,590)}အမှောင်ထု ကြီးစိုးနေတဲ့ မြင်ကွင်းနောက်ကွယ်ကနေ ရင်ခုန်စိတ်လှုပ်ရှားဖွယ်\Nစကားသံတစ်ခုက တိတ်ဆိတ်မှုကို ဖြိုခွင်းလိုက်ပါတယ်။
+Dialogue: 0,0:00:07.38,0:00:14.24,Default,,0,0,0,,{\an5\pos(640,590)}သုံးနှစ်ဆိုတဲ့ အချိန်ကာလကြီး ကုန်လွန်သွားခဲ့ပြီးတဲ့နောက်မှာတော့\Nစောင့်မျှော်နေခဲ့ရသူဟာ နောက်ဆုံးမှာ ပြန်လည်ရောက်ရှိလာခဲ့ပါပြီ။
+Dialogue: 0,0:00:14.52,0:00:20.30,Default,,0,0,0,,{\an5\pos(640,590)}ဒီပြန်လည်ဆုံဆည်းမှုဟာ သာမန်တွေ့ဆုံမှုတစ်ခု မဟုတ်ဘဲ\Nကြီးမားတဲ့ ရည်ရွယ်ချက်တစ်ခုအတွက် ဖြစ်နေခဲ့တာပါ။
+Dialogue: 0,0:00:20.58,0:00:27.40,Default,,0,0,0,,{\an5\pos(640,590)}ဒီမြို့တော်ကြီးကို ကာကွယ်စောင့်ရှောက်နိုင်ဖို့အတွက် သူတို့နှစ်ဦး\Nမဖြစ်မနေ လက်တွဲပူးပေါင်းကြရတော့မယ့် အချိန်ကို ရောက်ရှိလာခဲ့ပါပြီ။

@@ -1,0 +1,15 @@
+[Script Info]
+Title: Burmese Movie Recap Subtitles
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans Myanmar,27,&H00FFFFFF,&H000000FF,&H00000000,&H66000000,1,0,0,0,100,100,0,0,3,6,0,2,60,60,72,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.74,Default,,0,0,0,,{\an5\pos(640,634)}သုံးနှစ်ကြာပြီးတဲ့နောက်မှာ မင်းနောက်ဆုံးတော့ ပြန်ရောက်လာပြီ။\Nဒီမြို့က မင်းကို အမြဲတမ်းစောင့်မျှော်နေခဲ့တာ။
+Dialogue: 0,0:00:05.86,0:00:09.16,Default,,0,0,0,,{\an5\pos(640,634)}အားလုံးရဲ့လုံခြုံရေးအတွက် ဒီနေ့မှာတော့\Nငါတို့လက်တွဲပြီး လုပ်ဆောင်မှကို ဖြစ်မယ်။

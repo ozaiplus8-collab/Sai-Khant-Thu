@@ -1,0 +1,2 @@
+file '/app/applet/uploads/projects/proj_mwf2oadz_ad7l/dubbing_segments/dub_001_myMMNilarNeural_100.mp3'
+file '/app/applet/uploads/projects/proj_mwf2oadz_ad7l/dubbing_segments/dub_002_myMMThihaNeural_100.mp3'
